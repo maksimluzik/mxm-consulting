@@ -21,7 +21,7 @@
 title: MXM Consulting
 email: maksim@mxm-consulting.fi
 description: >- # this means to ignore newlines until "baseurl:"
-  Consultancy Company MXM Consulting Oy. Making your business strive.
+  IT Consultancy Company MXM Consulting Oy. Making your business strive.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mxm-consulting.fi" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maksimluzik
