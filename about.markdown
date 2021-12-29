@@ -5,4 +5,4 @@ permalink: /about/
 order: 2
 ---
 
-Consultancy Company MXM Consulting Oy. Making your business strive.
+IT Consultancy Company MXM Consulting Oy. Making your business strive.
