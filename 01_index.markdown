@@ -14,7 +14,7 @@ Customers that want to solve problems and find solutions in their business criti
 
 ## <center>Why us?</center>
 
-MXM Consulting is a company with young mindset while having 15 years of experience in IT field and related industries like e-commerce, banking, and advertising. We provide IT solution and consulting services according to client's needs. Working closely with internal teams and stakeholders on site or remotely depending on situation and preferences. .
+MXM Consulting is a company with young mindset while having 15 years of experience in IT field and related industries like e-commerce, banking, and advertising. We provide IT solution and consulting services according to client's needs. Working closely with internal teams and stakeholders on site or remotely depending on situation and preferences.
 
 ## <center>How?</center>
 
