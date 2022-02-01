@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 title: About
 permalink: /about/
 order: 2
 ---
 
-IT Consultancy Company MXM Consulting Oy. Making your business strive.
+MXM Consulting - Founded by Maksim Luzik - [http://maksimluzik.com](http://maksimluzik.com) -->

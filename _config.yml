@@ -19,9 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: MXM Consulting
+logo: mxm-consulting-logo-black.jpg
 email: maksim@mxm-consulting.fi
 description: >- # this means to ignore newlines until "baseurl:"
-  IT Consultancy Company MXM Consulting Oy. Making your business strive.
+  IT consultancy company MXM Consulting Oy. Making your business strive.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mxm-consulting.fi" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maksimluzik
@@ -32,6 +33,7 @@ linkedin_username: maksimluzik
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
