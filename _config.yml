@@ -29,6 +29,9 @@ twitter_username: maksimluzik
 github_username:  maksimluzik
 linkedin_username: maksimluzik
 
+# Google Analytics
+google_analytics: G-7BKP2SGG7T
+
 # Build settings
 theme: minima
 plugins:
