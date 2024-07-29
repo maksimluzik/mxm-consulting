@@ -1,4 +1,7 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: default
 title: MXM
 permalink: /
@@ -15,22 +18,20 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
 
 ### Our IT Expertise
 
-<div class="expertise">
-  - **Cloud Services**: Expertise in AWS and Google Cloud  
-    <img src="assets/img/cloud.png" alt="Cloud Services" class="center-image"/>
+- **Cloud Services**: Expertise in AWS and Google Cloud  
+  <img src="assets/img/cloud.png" alt="Cloud Services" width="250"/>
 
-  - **Software Architecture**: Designing robust and scalable systems  
-    <img src="assets/img/architecture.png" alt="Software Architecture" class="center-image"/>
+- **Software Architecture**: Designing robust and scalable systems  
+  <img src="assets/img/architecture.png" alt="Software Architecture" width="250"/>
 
-  - **App Development**: Creating web and native applications  
-    <img src="assets/img/app.png" alt="App Development" class="center-image"/>
+- **App Development**: Creating web and native applications  
+  <img src="assets/img/app.png" alt="App Development" width="250"/>
 
-  - **Artificial Intelligence**: Training and fine-tuning AI models  
-    <img src="assets/img/ai.png" alt="Artificial Intelligence" class="center-image"/>
+- **Artificial Intelligence**: Training and fine-tuning AI models  
+  <img src="assets/img/ai.png" alt="Artificial Intelligence" width="250"/>
 
-  - **Automation**: Streamlining processes for efficiency  
-    <img src="assets/img/automation.png" alt="Automation" class="center-image"/>
-</div>
+- **Automation**: Streamlining processes for efficiency  
+  <img src="assets/img/automation.png" alt="Automation" width="250"/>
 
 ## <center>How to Get Started</center>
 
