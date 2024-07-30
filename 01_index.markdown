@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: MXM
 permalink: /
@@ -18,20 +15,38 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
 
 ### Our IT Expertise
 
-- **Cloud Services**: Expertise in AWS and Google Cloud  
-  <img src="assets/img/cloud.png" alt="Cloud Services" width="250"/>
-
-- **Software Architecture**: Designing robust and scalable systems  
-  <img src="assets/img/architecture.png" alt="Software Architecture" width="250"/>
-
-- **App Development**: Creating web and native applications  
-  <img src="assets/img/app.png" alt="App Development" width="250"/>
-
-- **Artificial Intelligence**: Training and fine-tuning AI models  
-  <img src="assets/img/ai.png" alt="Artificial Intelligence" width="250"/>
-
-- **Automation**: Streamlining processes for efficiency  
-  <img src="assets/img/automation.png" alt="Automation" width="250"/>
+<div class="expertise-grid">
+  <div class="expertise-item">
+    <h3>Cloud Services</h3>
+    <p>Expertise in AWS and Google Cloud</p>
+    <img src="assets/img/cloud.png" alt="Cloud Services" />
+  </div>
+  <div class="expertise-item">
+    <h3>Software Architecture</h3>
+    <p>Designing robust and scalable systems</p>
+    <img src="assets/img/architecture.png" alt="Software Architecture" />
+  </div>
+  <div class="expertise-item">
+    <h3>App Development</h3>
+    <p>Creating web and native applications</p>
+    <img src="assets/img/app.png" alt="App Development" />
+  </div>
+  <div class="expertise-item">
+    <h3>Artificial Intelligence</h3>
+    <p>Training and fine-tuning AI models</p>
+    <img src="assets/img/ai.png" alt="Artificial Intelligence" />
+  </div>
+  <div class="expertise-item">
+    <h3>Automation</h3>
+    <p>Streamlining processes for efficiency</p>
+    <img src="assets/img/automation.png" alt="Automation" />
+  </div>
+   <div class="expertise-item">
+    <h3>IT Management</h3>
+    <p>Management and team collaboration</p>
+    <img src="assets/img/management.png" alt="IT Management" />
+  </div>
+</div>
 
 ## <center>How to Get Started</center>
 
