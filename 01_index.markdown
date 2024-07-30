@@ -50,4 +50,20 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
 
 ## <center>How to Get Started</center>
 
-Let's discuss your needs and how we can assist you. Reach out to us for a personalized consultation. Contact us at: [maksim@mxm-consulting.fi](mailto:maksim@mxm-consulting.fi)
+Let's discuss your needs and how we can assist you. Reach out to us for a personalized consultation. Contact us by sending email at: [maksim@mxm-consulting.fi](mailto:maksim@mxm-consulting.fi) or filling out the form below:
+
+<form
+  action="https://formspree.io/f/xyzgwzaq"
+  method="POST"
+  class="contact-form"
+>
+  <label for="email">Your email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Your message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <!-- your other form fields go here -->
+  <button type="submit" class="submit-button">Send</button>
+</form>
+
