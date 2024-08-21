@@ -48,9 +48,19 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
   </div>
 </div>
 
+Some of the principles and technologies we have experience with:
+* Event-driven architecture (EDA) - Kafka
+* Monoliths and microservice architecture - Kubernetes, Fargate, Load Balancers
+* Data lakes and data warehouses - BiqQuery, Cloud Storage
+* Cloud infrastructure and Infrastructure as Code (IaS) - Google Cloud, AWS and Azure
+* Web, Android and iOS applications
+* Observability and SLA - Prometheus & Grafana
+* Agile methodologies - Kanban, Scrum, Feature flagging
+* Domain management - Route 53
+
 ## <center>How to Get Started</center>
 
-Let's discuss your needs and how we can assist you. Reach out to us for a personalized consultation. Contact us by sending an email to [maksim@mxm-consulting.fi](mailto:maksim@mxm-consulting.fi) or by filling out the form below, and we will get back to you.
+Let's discuss your needs and explore how we can assist you. <ins>We’re happy to offer you a complimentary first consultation.</ins> Contact us by emailing [maksim@mxm-consulting.fi](mailto:maksim@mxm-consulting.fi) or by filling out the form below, and we will promptly get back to you.
 
 <form
   action="https://formspree.io/f/xyzgwzaq"
