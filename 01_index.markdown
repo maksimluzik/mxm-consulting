@@ -13,6 +13,12 @@ Are you looking to solve critical business challenges and discover innovative so
 
 With over 15 years of experience across IT, e-commerce, banking, and advertising, MXM Consulting brings a youthful mindset and deep expertise to every project. Our tailored IT solutions and consulting services are designed to meet your unique needs. We collaborate closely with your internal teams and stakeholders, both on-site and remotely, to deliver optimal results.
 
+## <center>What Makes Us Stand Out?</center>
+
+* Over15 years of experience in the IT industry, we have seen the boom of the IT start from the early 2000 u
+* Focus and commitment 100% to the client - not the hidden tasks that are required from consultant to put into their host company that will take away the energy from putting effort into client work
+* 
+
 ### Our IT Expertise
 
 <div class="expertise-grid">
