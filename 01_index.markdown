@@ -5,7 +5,7 @@ permalink: /
 order: 1
 ---
 
-## <center>Who We Serve</center>
+## <center>Clients We Work With</center>
 
 Are you looking to solve critical business challenges and discover innovative solutions? At MXM Consulting, we specialize in technical due diligence, cloud and architecture solutions, and agile planning. Whether you need to make data-driven decisions or improve your team's flexibility and efficiency, we are here to help.
 
