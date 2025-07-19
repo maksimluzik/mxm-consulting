@@ -17,6 +17,7 @@ Are you looking to solve critical business challenges and discover innovative so
   <img src="assets/img/clients/nordea.png" alt="Nordea" title="Nordea" />
   <img src="assets/img/clients/vend.png" alt="Vend" title="Vend" />
   <img src="assets/img/clients/tori.png" alt="Tori" title="Tori" />
+  <img src="assets/img/clients/knowu.png" alt="KnowU" title="KnowU" />
   <img src="assets/img/clients/netlight.png" alt="Netlight" title="Netlight" />
   <img src="assets/img/clients/veikkaus.png" alt="Veikkaus" title="Veikkaus" />
   <img src="assets/img/clients/midaxo.png" alt="Midaxo" title="Midaxo" />
