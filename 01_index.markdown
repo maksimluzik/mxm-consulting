@@ -76,7 +76,7 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
   </div>
 </div>
 
-Some of the principles and technologies we have experience with:
+Some of the principles and technologies we have experience with, but are not limited to:
 * Event-driven architecture (EDA) - Kafka
 * Monoliths and microservice architecture - Kubernetes, Fargate, Load Balancers
 * Data lakes and data warehouses - BiqQuery, Cloud Storage
