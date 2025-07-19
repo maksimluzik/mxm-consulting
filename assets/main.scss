@@ -140,3 +140,30 @@ a.button-link:hover, a.button-link:focus {
     font-size: 1em;
   }
 }
+
+
+/* Client Logo Grid Styles */
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.client-logos img {
+  min-width: 80px;
+  max-width: 120px;
+  max-height: 50px;
+  object-fit: contain;
+  margin: 0.5rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.client-logos img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}

@@ -9,9 +9,29 @@ order: 1
 
 Are you looking to solve critical business challenges and discover innovative solutions? At MXM Consulting, we specialize in technical due diligence, cloud and architecture solutions, and agile planning. Whether you need to make data-driven decisions or improve your team's flexibility and efficiency, we are here to help.
 
+<br />
+
+### <center>Clients we have worked with</center>
+
+<div class="client-logos">
+  <img src="assets/img/clients/nordea.png" alt="Nordea" title="Nordea" />
+  <img src="assets/img/clients/vend.png" alt="Vend" title="Vend" />
+  <img src="assets/img/clients/tori.png" alt="Tori" title="Tori" />
+  <img src="assets/img/clients/netlight.png" alt="Netlight" title="Netlight" />
+  <img src="assets/img/clients/veikkaus.png" alt="Veikkaus" title="Veikkaus" />
+  <img src="assets/img/clients/midaxo.png" alt="Midaxo" title="Midaxo" />
+  <img src="assets/img/clients/glomex.png" alt="glomex" title="glomex" />
+  <img src="assets/img/clients/kiosked.png" alt="Kiosked" title="Kiosked" />
+  <img src="assets/img/clients/vtt.png" alt="VTT" title="VTT" />
+</div>
+
+<br />
+
 ## <center>Why Choose MXM Consulting?</center>
 
 With over 15 years of experience across IT, e-commerce, banking, and advertising, MXM Consulting brings a youthful mindset and deep expertise to every project. Our tailored IT solutions and consulting services are designed to meet your unique needs. We collaborate closely with your internal teams and stakeholders, both on-site and remotely, to deliver optimal results.
+
+<br />
 
 ## <center>What Sets Us Apart</center>
 
@@ -19,7 +39,9 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
 
 - **Unwavering Client Focus**: Our dedication lies solely with our clients. We avoid any tasks that detract from providing maximum value and attention to your project, ensuring that all our energy is directed toward achieving your goals.
 
-### Our IT Expertise
+<br />
+
+### <center>Our IT Expertise</center>
 
 <div class="expertise-grid">
   <div class="expertise-item">
@@ -63,6 +85,8 @@ Some of the principles and technologies we have experience with:
 * Observability and SLA - Prometheus & Grafana
 * Agile methodologies - Kanban, Scrum, Feature flagging
 * Domain management - Route 53
+
+<br />
 
 ## <center>How to Get Started</center>
 
