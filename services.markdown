@@ -41,7 +41,7 @@ Make informed technology decisions with our comprehensive assessments:
 
 ### Software Development
 Build robust applications with modern development practices:
-- **Web Application Development**: React, Angular, Vue.js, and more
+- **Web Application Development**: React, NextJS and more
 - **Mobile App Development**: Native iOS and Android applications
 - **API Development**: RESTful and GraphQL API design and implementation
 - **Microservices Architecture**: Scalable, maintainable service design
@@ -80,7 +80,6 @@ Guide your organization through digital evolution:
 We serve clients across various industries with specialized knowledge in:
 - **Financial Services**: Banking, fintech, and payment systems
 - **E-commerce**: Online retail and marketplace platforms
-- **Healthcare**: HIPAA-compliant solutions and health tech
 - **Manufacturing**: IoT and industrial automation
 - **SaaS**: Multi-tenant application architecture
 
