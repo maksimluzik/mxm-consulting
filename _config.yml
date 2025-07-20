@@ -18,16 +18,73 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MXM Consulting
+title: "MXM Consulting - Expert IT Solutions & Technical Due Diligence"
 logo: mxm-consulting-logo-black.jpg
 email: maksim@mxm-consulting.fi
 description: >- # this means to ignore newlines until "baseurl:"
-  IT consultancy company MXM Consulting Oy. Elevating Your Business with Expert IT Solutions. Y-tunnus: 3243925-3
+  MXM Consulting - Leading IT consultancy specializing in cloud architecture, software development, technical due diligence, and digital transformation. 15+ years experience in AWS, Google Cloud, microservices, and agile methodologies. Expert IT solutions for enterprise clients.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mxm-consulting.fi" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO and Social Media
+author: "Maksim Luzik"
 twitter_username: maksimluzik
-github_username:  maksimluzik
 linkedin_username: maksimluzik
+github_username: maksimluzik
+
+# Additional social media for SEO
+social:
+  name: "Maksim Luzik"
+  links:
+    - https://twitter.com/maksimluzik
+    - https://www.linkedin.com/in/maksimluzik
+    - https://www.linkedin.com/company/mxm-consulting-fi
+    - https://github.com/maksimluzik
+  linkedin_company: https://www.linkedin.com/company/mxm-consulting-fi
+  twitter: https://twitter.com/maksimluzik
+  github: https://github.com/maksimluzik
+
+# Twitter card settings
+twitter:
+  username: maksimluzik
+  card: summary_large_image
+
+# LinkedIn Open Graph settings
+linkedin:
+  company: mxm-consulting-fi
+  profile: maksimluzik
+  
+# Open Graph settings for social sharing
+og:
+  type: website
+  image: /assets/img/mxm-consulting-logo-black.jpg
+  image_width: 1200
+  image_height: 630
+  locale: en_US
+
+# Additional SEO settings
+tagline: "Expert IT Solutions & Cloud Architecture Consulting"
+keywords: "IT consulting, cloud architecture, AWS, Google Cloud, technical due diligence, software development, microservices, digital transformation, Finland, enterprise solutions"
+lang: en_US
+timezone: Europe/Helsinki
+
+# Company information for structured data
+company:
+  name: "MXM Consulting Oy"
+  business_id: "3243925-3"
+  address: "Finland"
+  founded: 2021
+  
+# Services for SEO
+services:
+  - "Cloud Architecture & Migration"
+  - "Technical Due Diligence"
+  - "Software Development"
+  - "Digital Transformation"
+  - "AWS & Google Cloud Consulting"
+  - "Microservices Architecture"
+  - "DevOps & Infrastructure as Code"
+  - "AI & Machine Learning Solutions"
 
 # Google Analytics
 google_analytics: G-7BKP2SGG7T
@@ -37,6 +94,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

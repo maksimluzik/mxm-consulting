@@ -1,17 +1,28 @@
 ---
 layout: default
-title: MXM
+title: "MXM Consulting - Expert IT Solutions & Cloud Architecture"
+description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and digital transformation. 15+ years experience with AWS, Google Cloud, and enterprise solutions."
+keywords: "IT consulting Finland, cloud architecture, AWS consulting, Google Cloud, technical due diligence, software development, digital transformation, microservices"
 permalink: /
 order: 1
+# Open Graph / Social Media
+og_image: /assets/img/mxm-consulting-logo-black.jpg
+og_type: website
+og_title: "MXM Consulting - Expert IT Solutions & Cloud Architecture"
+og_description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and digital transformation. 15+ years experience with AWS, Google Cloud, and enterprise solutions."
+# LinkedIn specific
+linkedin_title: "MXM Consulting - Expert IT Solutions & Cloud Architecture"
+linkedin_description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and digital transformation. 15+ years experience with AWS, Google Cloud, and enterprise solutions."
+canonical_url: https://mxm-consulting.fi
 ---
 
-## <center>Clients We Work With</center>
+# Expert IT Consulting & Cloud Architecture Solutions
 
 Are you looking to solve critical business challenges and discover innovative solutions? At MXM Consulting, we specialize in technical due diligence, cloud and architecture solutions, and agile planning. Whether you need to make data-driven decisions or improve your team's flexibility and efficiency, we are here to help.
 
 <br />
 
-### <center>Clients we have worked with</center>
+## <center>Clients we have worked with</center>
 
 <div class="client-logos">
   <img src="assets/img/clients/nordea.png" alt="Nordea" title="Nordea" />
@@ -28,13 +39,13 @@ Are you looking to solve critical business challenges and discover innovative so
 
 <br />
 
-## <center>Why Choose MXM Consulting?</center>
+## Why Choose MXM Consulting for Your IT Projects?
 
 With over 15 years of experience across IT, e-commerce, banking, and advertising, MXM Consulting brings a youthful mindset and deep expertise to every project. Our tailored IT solutions and consulting services are designed to meet your unique needs. We collaborate closely with your internal teams and stakeholders, both on-site and remotely, to deliver optimal results.
 
 <br />
 
-## <center>What Sets Us Apart</center>
+## What Sets Our IT Consulting Apart
 
 - **Extensive IT Industry Experience**: With over 15 years of expertise, we’ve witnessed the evolution of the IT landscape since the early 2000s, equipping us with insights across diverse technological shifts.
 
@@ -42,7 +53,7 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
 
 <br />
 
-### <center>Our IT Expertise</center>
+### <center>Our Comprehensive IT Expertise & Services</center>
 
 <div class="expertise-grid">
   <div class="expertise-item">
@@ -89,7 +100,7 @@ Some of the principles and technologies we have experience with, but are not lim
 
 <br />
 
-## <center>How to Get Started</center>
+## Get Started with Professional IT Consulting
 
 Let's discuss your needs and explore how we can assist you. <ins>We’re happy to offer you a complimentary first consultation.</ins> Contact us by emailing [maksim@mxm-consulting.fi](mailto:maksim@mxm-consulting.fi) or by filling out the form below, and we will promptly get back to you.
 

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /_site/
+Allow: /assets/img/
+Allow: /
+
+Sitemap: https://mxm-consulting.fi/sitemap.xml
