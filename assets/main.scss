@@ -57,6 +57,11 @@
   text-decoration: none;
 }
 
+.nav-active {
+  background-color: #000;
+  color: white !important;
+}
+
 .nav-contact {
   /* Contact link now behaves like other nav links */
 }
