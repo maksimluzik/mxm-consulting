@@ -120,7 +120,7 @@ Some of the principles and technologies we have experience with, but are not lim
 
 <br />
 
-## Get Started with Professional IT Consulting
+## <a id="contact"></a>Get Started with Professional IT Consulting
 
 Let's discuss your needs and explore how we can assist you. <ins>We’re happy to offer you a complimentary first consultation.</ins> Contact us by emailing [maksim@mxm-consulting.fi](mailto:maksim@mxm-consulting.fi) or by filling out the form below, and we will promptly get back to you.
 

@@ -6,6 +6,11 @@
 
 @import "minima";
 
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header Styles */
 .site-header { 
   border-top: 5px solid #000; 

@@ -11,7 +11,11 @@
                 <a href="{{ "/" | relative_url }}" class="nav-link {% if page.url == '/' %}nav-active{% endif %}">HOME</a>
                 <a href="{{ "/about/" | relative_url }}" class="nav-link {% if page.url contains '/about' %}nav-active{% endif %}">ABOUT</a>
                 <a href="{{ "/services/" | relative_url }}" class="nav-link {% if page.url contains '/services' %}nav-active{% endif %}">SERVICES</a>
-                <a href="mailto:{{ site.email }}" class="nav-link nav-contact">CONTACT</a>
+                {% if page.url == '/' %}
+                    <a href="#contact" class="nav-link nav-contact">CONTACT</a>
+                {% else %}
+                    <a href="{{ "/" | relative_url }}#contact" class="nav-link nav-contact">CONTACT</a>
+                {% endif %}
             </nav>
         </div>
     </div>
