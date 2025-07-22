@@ -25,16 +25,36 @@ Are you looking to solve critical business challenges and discover innovative so
 ## <center>Clients we have worked with</center>
 
 <div class="client-logos">
-  <img src="assets/img/clients/nordea.png" alt="Nordea" title="Nordea" />
-  <img src="assets/img/clients/vend.png" alt="Vend" title="Vend" />
-  <img src="assets/img/clients/tori.png" alt="Tori" title="Tori" />
-  <img src="assets/img/clients/knowu.png" alt="KnowU" title="KnowU" />
-  <img src="assets/img/clients/netlight.png" alt="Netlight" title="Netlight" />
-  <img src="assets/img/clients/veikkaus.png" alt="Veikkaus" title="Veikkaus" />
-  <img src="assets/img/clients/midaxo.png" alt="Midaxo" title="Midaxo" />
-  <img src="assets/img/clients/glomex.png" alt="glomex" title="glomex" />
-  <img src="assets/img/clients/kiosked.png" alt="Kiosked" title="Kiosked" />
-  <img src="assets/img/clients/vtt.png" alt="VTT" title="VTT" />
+  <a href="https://www.nordea.com" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/nordea.png" alt="Nordea" title="Nordea" />
+  </a>
+  <a href="https://www.vend.com" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/vend.png" alt="Vend" title="Vend" />
+  </a>
+  <a href="https://www.tori.fi" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/tori.png" alt="Tori" title="Tori" />
+  </a>
+  <a href="https://www.knowu.app" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/knowu.png" alt="KnowU" title="KnowU" />
+  </a>
+  <a href="https://www.netlight.com" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/netlight.png" alt="Netlight" title="Netlight" />
+  </a>
+  <a href="https://www.veikkaus.fi" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/veikkaus.png" alt="Veikkaus" title="Veikkaus" />
+  </a>
+  <a href="https://www.midaxo.com" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/midaxo.png" alt="Midaxo" title="Midaxo" />
+  </a>
+  <a href="https://www.glomex.com" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/glomex.png" alt="glomex" title="glomex" />
+  </a>
+  <a href="https://www.kiosked.com" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/kiosked.png" alt="Kiosked" title="Kiosked" />
+  </a>
+  <a href="https://www.vtt.fi" target="_blank" rel="noopener noreferrer">
+    <img src="assets/img/clients/vtt.png" alt="VTT" title="VTT" />
+  </a>
 </div>
 
 <br />

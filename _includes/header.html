@@ -1,9 +1,18 @@
 <header class="site-header" role="banner">
-
     <div class="wrapper">
-        <div class="img-container">
-            {% if site.logo %}
-                <a class="site-title" rel="author" href="/"><img class="site-logo" alt="logo" src="{{ site.logo | escape | prepend: "/assets/img/" | relative_url }}"/></a>
-            {% endif %}
+        <div class="header-top">
+            <div class="img-container">
+                {% if site.logo %}
+                    <a class="site-title" rel="author" href="/"><img class="site-logo" alt="logo" src="{{ site.logo | escape | prepend: "/assets/img/" | relative_url }}"/></a>
+                {% endif %}
+            </div>
+            
+            <nav class="main-nav">
+                <a href="{{ "/" | relative_url }}" class="nav-link">HOME</a>
+                <a href="{{ "/about/" | relative_url }}" class="nav-link">ABOUT</a>
+                <a href="{{ "/services/" | relative_url }}" class="nav-link">SERVICES</a>
+                <a href="mailto:{{ site.email }}" class="nav-link nav-contact">CONTACT</a>
+            </nav>
         </div>
-  </header>
+    </div>
+</header>

@@ -6,11 +6,89 @@
 
 @import "minima";
 
-.site-header { border-top: 5px solid #000; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
+/* Header Styles */
+.site-header { 
+  border-top: 5px solid #000; 
+  border-bottom: 1px solid #e8e8e8; 
+  min-height: 55.95px; 
+  position: relative; 
+  background: white;
+}
 
-.img-container { float: left; }
+.header-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 5px 0;
+  max-width: 100%;
+}
 
-.site-logo { width: 100%; }
+.img-container { 
+  margin-bottom: 8px;
+}
+
+.site-logo { 
+  width: 100%;
+  height: auto;
+}
+
+/* Subtle Navigation Under Logo */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  justify-content: center;
+}
+
+.nav-link {
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  padding: 4px 12px;
+  transition: all 0.3s ease;
+  margin: 0 2px;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background-color: #000;
+  text-decoration: none;
+}
+
+.nav-contact {
+  /* Contact link now behaves like other nav links */
+}
+
+.nav-contact:hover {
+  color: white !important;
+  background-color: #000;
+  text-decoration: none;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .header-top {
+    padding: 10px 0 3px 0;
+  }
+  
+  .img-container {
+    margin-bottom: 6px;
+  }
+  
+  .main-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+  
+  .nav-link {
+    font-size: 10px;
+    padding: 3px 8px;
+    margin: 1px;
+  }
+}
 
 .expertise-grid {
     display: grid;
@@ -110,7 +188,7 @@ a.button-link:hover, a.button-link:focus {
 .contact-form .submit-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #333;
   color: white;
   border: none;
   border-radius: 5px;
@@ -121,8 +199,8 @@ a.button-link:hover, a.button-link:focus {
 
 .contact-form .submit-button:hover,
 .contact-form .submit-button:focus {
-  background-color: #0056b3;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form {
@@ -155,6 +233,11 @@ a.button-link:hover, a.button-link:focus {
   padding: 0 1rem;
 }
 
+.client-logos a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
 .client-logos img {
   min-width: 80px;
   max-width: 120px;
@@ -165,9 +248,12 @@ a.button-link:hover, a.button-link:focus {
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-.client-logos img:hover {
-  filter: grayscale(0%);
+.client-logos a:hover {
   transform: scale(1.05);
+}
+
+.client-logos a:hover img {
+  filter: grayscale(0%);
 }
 
 /* Footer Styles */
