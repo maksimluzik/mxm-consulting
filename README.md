@@ -1,25 +1,34 @@
 # MXM Consulting Website
 
-Professional IT consulting website built with Jekyll and hosted on GitHub Pages. This repository contains the source code for [mxm-consulting.fi](https://mxm-consulting.fi), showcasing MXM Consulting's expertise in AI development, cloud architecture, and digital transformation.
+Professional IT consulting website built with Jekyll and hosted on GitHub Pages. This repository contains the source code for [mxm-consulting.fi](https://mxm-consulting.fi), showcasing MXM Consulting's expertise in AI development, cloud architecture, software development, and digital transformation services.
 
 ## About MXM Consulting
 
 MXM Consulting is a leading IT consultancy in Finland specializing in:
-- **Artificial Intelligence & Machine Learning** - LLM fine-tuning, neural networks, custom AI models
-- **Cloud Architecture** - AWS, Google Cloud, Azure solutions
-- **Software Development** - Web applications, mobile apps, microservices
-- **Digital Transformation** - Technical due diligence, automation, DevOps
-- **IT Management** - Team collaboration, agile methodologies
+- **Artificial Intelligence & Machine Learning** - Custom ChatGPT development, AI tool creation, LLM solutions
+- **Cloud Architecture** - AWS, Google Cloud, Azure solutions and migrations
+- **Software Development** - Cross-platform mobile apps, progressive web applications, microservices
+- **Digital Transformation** - Technical due diligence, automation, DevOps, process optimization
+- **IT Management** - Team collaboration, agile methodologies, strategic technology planning
 
 ## Website Features
 
+### Core Features
 - **Professional Design** - Clean, modern layout with MXM Consulting branding
-- **Responsive Layout** - Mobile-first design that works on all devices
-- **SEO Optimized** - Comprehensive metadata, Open Graph, and structured data
-- **Client Showcase** - Interactive client logos with links to company websites
-- **Contact Integration** - Contact form powered by Formspree
-- **Smooth Navigation** - Anchor links with smooth scrolling animations
+- **Responsive Layout** - Mobile-first design optimized for all devices
+- **SEO Optimized** - Comprehensive metadata, Open Graph, LinkedIn integration
+- **Client Showcase** - Interactive client logos including KnowU, Nordea, Tori, and more
+- **Contact Integration** - Professional contact form powered by Formspree
+- **Smooth Navigation** - Active navigation states and smooth scrolling animations
 - **GDPR Compliant** - Complete privacy policy and data protection measures
+
+### New Features (2025 Updates)
+- **KnowU Product Page** - Dedicated showcase for MXM's KnowU personality assessment platform
+- **Headliner AI Tool** - Custom ChatGPT for news article summarization with Finnish news optimization
+- **Enhanced Services Page** - Visual service grids with icons and comprehensive delivery models
+- **Interactive About Page** - Visual approach cards, technology grids, and industry tags
+- **Compact Footer Navigation** - Streamlined quick links with improved spacing
+- **Visual Service Delivery Models** - On-site, remote, and hybrid consulting options
 
 ## Site Structure
 
@@ -27,31 +36,84 @@ MXM Consulting is a leading IT consultancy in Finland specializing in:
 mxm-consulting/
 ├── _config.yml              # Jekyll configuration and site metadata
 ├── _includes/               # Reusable components
-│   ├── header.html          # Navigation header with logo
-│   ├── footer.html          # Professional footer with contact info
+│   ├── header.html          # Navigation with active states and KnowU link
+│   ├── footer.html          # Compact footer with quick links
 │   └── google-analytics.html # Analytics integration
 ├── _posts/                  # Blog posts (Jekyll default)
 ├── assets/
-│   ├── main.scss           # Main stylesheet with custom styling
-│   └── img/                # Images and client logos
-│       ├── clients/        # Client company logos
-│       └── *.png           # Service icons and branding
-├── index.markdown          # Homepage content
-├── 02_about.markdown       # About page
-├── services.markdown       # Services page
+│   ├── main.scss           # Enhanced stylesheet with grid layouts and animations
+│   └── img/                # Images, service icons, and logos
+│       ├── clients/        # Client company logos (Nordea, Tori, KnowU, etc.)
+│       ├── know-u-logo-big-grey.png # KnowU branding
+│       ├── headliner-screenshot.png # Headliner tool screenshot
+│       └── *.png           # Service icons (cloud, AI, app, automation, etc.)
+├── index.markdown          # Homepage with client showcase and expertise grid
+├── about.markdown          # Enhanced about page with visual approach cards
+├── services.markdown       # Services page with visual grids and delivery models
+├── knowu.markdown          # KnowU product showcase page
+├── news-proxy.markdown     # Headliner ChatGPT tool demonstration
 ├── privacy-policy.markdown # GDPR-compliant privacy policy
-├── Makefile               # Development and deployment commands
-└── README.md              # This file
+├── Makefile               # Development and deployment automation
+└── README.md              # This documentation
 ```
+
+## Page Overview
+
+### Homepage (`index.markdown`)
+- **Hero Section** - IT consulting expertise introduction
+- **Client Showcase** - Interactive logos with company links
+- **Expertise Grid** - Visual service areas with icons
+- **Technology Stack** - Comprehensive list of tools and methodologies
+- **Contact Form** - Integrated Formspree contact system
+
+### About Page (`about.markdown`)
+- **Company Overview** - 15+ years of experience narrative
+- **Visual Service Cards** - What We Do section with clean card design
+- **Approach Methodology** - Client-focused, collaborative values
+- **Industry Tags** - Pill-style industry experience indicators
+- **Technology Grid** - Organized technology capabilities
+- **Contact CTA** - Professional contact call-to-action
+
+### Services Page (`services.markdown`)
+- **Core Services Grid** - Visual service areas with detailed descriptions
+- **Detailed Offerings** - Comprehensive service breakdowns
+- **Specialized Expertise** - DevOps, data solutions, enterprise integration
+- **Industry Focus** - Target market specializations
+- **Service Delivery Models** - On-site, remote, and hybrid options with spacing
+- **Contact Information** - Direct consultation invitation
+
+### KnowU Page (`knowu.markdown`)
+- **Product Showcase** - Full-width logo and KnowU branding
+- **Feature Overview** - Personality assessment capabilities
+- **Platform Availability** - iOS, Android, and web versions
+- **Beta Program** - Early access invitation
+- **MXM Development Role** - Technical capabilities demonstration
+- **Contact CTA** - Mobile and web application development services
+
+### Headliner Page (`news-proxy.markdown`)
+- **AI Tool Demonstration** - Custom ChatGPT capabilities
+- **Feature Grid** - URL-based summarization, multi-language support
+- **Technical Specifications** - Platform details and response times
+- **Finnish News Optimization** - Enhanced support for HS, IL, IS
+- **Live Tool Access** - Direct link to ChatGPT implementation
+- **AI Development Showcase** - MXM's AI solution expertise
 
 ## Technology Stack
 
-- **Jekyll 4.2.2** - Static site generator
-- **Minima Theme** - Base theme with extensive customizations
-- **SCSS/CSS** - Custom styling with responsive design
-- **GitHub Pages** - Hosting and automatic deployment
-- **Formspree** - Contact form backend
-- **Google Analytics** - Website analytics (optional)
+- **Jekyll 4.2.2** - Static site generator with enhanced performance
+- **Minima Theme** - Base theme with extensive custom styling
+- **SCSS/CSS** - Advanced styling with CSS Grid, Flexbox, and responsive design
+- **GitHub Pages** - Hosting with automatic deployment pipeline
+- **Formspree** - Professional contact form backend
+- **Google Analytics** - Website analytics and user behavior tracking
+
+### Recent Technical Enhancements
+- **CSS Grid Layouts** - Expertise grids and service delivery models
+- **Smooth Scrolling** - Enhanced user experience with scroll-behavior
+- **Active Navigation States** - Dynamic highlighting of current page
+- **Responsive Image Handling** - Optimized loading and scaling
+- **Visual Card Components** - Consistent design system across pages
+- **Mobile-First Design** - Improved mobile experience and performance
 
 ## Local Development
 
@@ -160,30 +222,56 @@ If you need to deploy to a different hosting provider:
 ## Content Management
 
 ### Adding New Services
-
 1. Update `index.markdown` in the expertise grid section
 2. Add corresponding service icons to `assets/img/`
-3. Update the services list in the technologies section
+3. Update `services.markdown` with detailed service descriptions
+4. Ensure consistent styling with existing grid layouts
 
 ### Adding Client Logos
-
 1. Add logo image to `assets/img/clients/`
 2. Update the client logos section in `index.markdown`
-3. Include the client's website URL
+3. Include the client's website URL and proper alt tags
+4. Maintain consistent image sizing and aspect ratios
+
+### Creating New Product Pages
+1. Create new `.markdown` file in root directory (e.g., `product.markdown`)
+2. Add navigation link to `_includes/header.html`
+3. Update footer links in `_includes/footer.html`
+4. Use consistent styling with existing product pages (KnowU, Headliner)
 
 ### Updating Contact Information
-
 1. Update `_config.yml` for site-wide contact details
 2. Modify `_includes/footer.html` for footer contact info
-3. Update the contact form action URL if needed
+3. Update the contact form action URL in Formspree settings
+4. Test contact form functionality after changes
+
+### Managing Visual Content
+1. **Service Icons**: Add new icons to `assets/img/` with consistent naming
+2. **Product Screenshots**: Use high-quality images with proper compression
+3. **Logo Variations**: Maintain brand consistency across all visual elements
+4. **Responsive Images**: Test image display across different screen sizes
 
 ## SEO and Analytics
 
-- **Meta Tags**: Configured in each page's front matter
-- **Open Graph**: Social media sharing optimization
-- **Structured Data**: JSON-LD for search engines
+### Search Engine Optimization
+- **Meta Tags**: Comprehensive metadata in each page's front matter
+- **Open Graph**: Social media sharing optimization for LinkedIn, Facebook, Twitter
+- **LinkedIn Integration**: Specific LinkedIn title and description tags
+- **Structured Data**: JSON-LD implementation for search engines
 - **Sitemap**: Automatically generated by Jekyll
-- **Google Analytics**: Optional integration available
+- **Canonical URLs**: Proper URL canonicalization
+
+### Performance Optimization
+- **Optimized Images**: Compressed service icons and client logos
+- **Minified CSS**: SCSS compilation with optimization
+- **Fast Loading**: Static site architecture with minimal JavaScript
+- **CDN Delivery**: Served via GitHub Pages global CDN
+- **Mobile Performance**: Optimized for mobile Core Web Vitals
+
+### Analytics and Tracking
+- **Google Analytics**: Optional integration for user behavior analysis
+- **Conversion Tracking**: Contact form submissions and page engagement
+- **Performance Monitoring**: Page load times and user experience metrics
 
 ## Performance
 
@@ -198,6 +286,28 @@ If you need to deploy to a different hosting provider:
 - **Privacy Policy**: GDPR-compliant privacy policy
 - **Secure Forms**: External form processing via Formspree
 - **No Database**: Static site reduces attack surface
+
+## Recent Updates (2025)
+
+### Major Feature Additions
+- **KnowU Product Integration** - Complete product page with full-width logo display
+- **Headliner AI Tool Showcase** - Custom ChatGPT demonstration with Finnish news optimization
+- **Enhanced Services Page** - Visual service grids with delivery model options
+- **Improved About Page** - Interactive approach cards and technology grids
+- **Navigation Improvements** - Active states and compact footer design
+
+### Design System Enhancements
+- **CSS Grid Implementation** - Consistent grid layouts across all pages
+- **Visual Card Components** - Standardized card design for services and features
+- **Responsive Image Handling** - Full-width logos with proper scaling
+- **Emoji Integration** - Strategic use of emojis for visual hierarchy
+- **Spacing Optimization** - Improved whitespace and component spacing
+
+### Technical Improvements
+- **Layout Standardization** - Consistent use of `layout: default` across pages
+- **Image Path Optimization** - Absolute paths for reliable image loading
+- **Contact CTA Integration** - Professional contact sections on product pages
+- **Mobile-First Enhancements** - Improved mobile experience and touch targets
 
 ## Support
 
