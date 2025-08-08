@@ -23,6 +23,41 @@ MXM Consulting offers a full range of IT consulting services designed to help yo
 
 ## Core Services
 
+<div class="expertise-grid">
+  <div class="expertise-item">
+    <h3>Cloud Services</h3>
+    <p>Transform your infrastructure with expert cloud solutions</p>
+    <img src="/assets/img/cloud.png" alt="Cloud Services" />
+  </div>
+  <div class="expertise-item">
+    <h3>Software Architecture</h3>
+    <p>Design and implement scalable systems</p>
+    <img src="/assets/img/architecture.png" alt="Software Architecture" />
+  </div>
+  <div class="expertise-item">
+    <h3>App Development</h3>
+    <p>Build robust web and mobile applications</p>
+    <img src="/assets/img/app.png" alt="App Development" />
+  </div>
+  <div class="expertise-item">
+    <h3>Artificial Intelligence</h3>
+    <p>Implement intelligent solutions for competitive advantage</p>
+    <img src="/assets/img/ai.png" alt="Artificial Intelligence" />
+  </div>
+  <div class="expertise-item">
+    <h3>Automation</h3>
+    <p>Streamline operations with automated workflows</p>
+    <img src="/assets/img/automation.png" alt="Automation" />
+  </div>
+  <div class="expertise-item">
+    <h3>IT Management</h3>
+    <p>Guide your organization through digital evolution</p>
+    <img src="/assets/img/management.png" alt="IT Management" />
+  </div>
+</div>
+
+## Detailed Service Offerings
+
 ### Cloud Architecture & Migration
 Transform your infrastructure with expert cloud solutions:
 - **AWS Cloud Architecture**: Design and implement scalable AWS solutions
@@ -102,14 +137,22 @@ We serve clients across various industries with specialized knowledge in:
 
 ## Service Delivery Models
 
-### On-Site Consulting
-Direct collaboration at your premises for maximum integration with your team.
-
-### Remote Consulting
-Flexible remote engagement for efficient, cost-effective service delivery.
-
-### Hybrid Approach
-Combine on-site presence with remote work for optimal project outcomes.
+<div style="text-align: center;">
+  <div class="expertise-grid" style="display: inline-block; max-width: 900px; text-align: left;">
+    <div class="expertise-item" style="margin: 15px;">
+      <h3>🏢 On-Site Consulting</h3>
+      <p>Direct collaboration at your premises for maximum integration with your team</p>
+    </div>
+    <div class="expertise-item" style="margin: 15px;">
+      <h3>💻 Remote Consulting</h3>
+      <p>Flexible remote engagement for efficient, cost-effective service delivery</p>
+    </div>
+    <div class="expertise-item" style="margin: 15px;">
+      <h3>🔄 Hybrid Approach</h3>
+      <p>Combine on-site presence with remote work for optimal project outcomes</p>
+    </div>
+  </div>
+</div>
 
 ## Get Started Today
 

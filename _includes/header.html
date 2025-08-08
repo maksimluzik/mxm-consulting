@@ -11,6 +11,8 @@
                 <a href="{{ "/" | relative_url }}" class="nav-link {% if page.url == '/' %}nav-active{% endif %}">HOME</a>
                 <a href="{{ "/about/" | relative_url }}" class="nav-link {% if page.url contains '/about' %}nav-active{% endif %}">ABOUT</a>
                 <a href="{{ "/services/" | relative_url }}" class="nav-link {% if page.url contains '/services' %}nav-active{% endif %}">SERVICES</a>
+                <a href="{{ "/knowu/" | relative_url }}" class="nav-link {% if page.url contains '/knowu' %}nav-active{% endif %}">KNOWU</a>
+                <a href="{{ "/news-proxy/" | relative_url }}" class="nav-link {% if page.url contains '/news-proxy' %}nav-active{% endif %}">HEADLINER</a>
                 {% if page.url == '/' %}
                     <a href="#contact" class="nav-link nav-contact">CONTACT</a>
                 {% else %}
