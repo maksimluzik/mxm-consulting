@@ -23,10 +23,14 @@ MXM Consulting is a leading IT consultancy in Finland specializing in:
 - **GDPR Compliant** - Complete privacy policy and data protection measures
 
 ### New Features (2025 Updates)
+- **Portfolio Organization** - Dedicated portfolio section with project showcase and organized structure
+- **Interactive Homepage Slideshow** - Windows-style horizontal scrollable expertise slideshow with touch/swipe support
+- **Capitol Conquest Game** - Strategic hexagonal grid game showcasing web development and AI expertise
 - **KnowU Product Page** - Dedicated showcase for MXM's KnowU personality assessment platform
 - **Headliner AI Tool** - Custom ChatGPT for news article summarization with Finnish news optimization
 - **Enhanced Services Page** - Visual service grids with icons and comprehensive delivery models
 - **Interactive About Page** - Visual approach cards, technology grids, and industry tags
+- **Modular JavaScript Architecture** - Separated JavaScript functionality with external file loading
 - **Compact Footer Navigation** - Streamlined quick links with improved spacing
 - **Visual Service Delivery Models** - On-site, remote, and hybrid consulting options
 
@@ -36,18 +40,33 @@ MXM Consulting is a leading IT consultancy in Finland specializing in:
 mxm-consulting/
 ├── _config.yml              # Jekyll configuration and site metadata
 ├── _includes/               # Reusable components
-│   ├── header.html          # Navigation with active states and KnowU link
+│   ├── header.html          # Navigation with portfolio organization
 │   ├── footer.html          # Compact footer with quick links
 │   └── google-analytics.html # Analytics integration
 ├── _posts/                  # Blog posts (Jekyll default)
 ├── assets/
-│   ├── main.scss           # Enhanced stylesheet with grid layouts and animations
+│   ├── main.scss           # Enhanced stylesheet with slideshow and grid layouts
+│   ├── js/                 # JavaScript functionality
+│   │   └── slideshow.js    # Interactive slideshow for homepage expertise section
 │   └── img/                # Images, service icons, and logos
 │       ├── clients/        # Client company logos (Nordea, Tori, KnowU, etc.)
 │       ├── know-u-logo-big-grey.png # KnowU branding
 │       ├── headliner-screenshot.png # Headliner tool screenshot
+│       ├── capitol-conquest-splash_square.png # Game screenshot
 │       └── *.png           # Service icons (cloud, AI, app, automation, etc.)
-├── index.markdown          # Homepage with client showcase and expertise grid
+├── index.markdown          # Homepage with interactive expertise slideshow
+├── about.markdown          # Enhanced about page with visual approach cards
+├── services.markdown       # Services page with visual grids and delivery models
+├── portfolio.markdown      # Portfolio overview with project showcase
+├── portfolio/              # Portfolio section (organized under /portfolio/ URLs)
+│   ├── knowu.markdown      # KnowU product showcase page (/portfolio/knowu/)
+│   ├── game.markdown       # Capitol Conquest game showcase (/portfolio/game/)
+│   └── news-proxy.markdown # Headliner ChatGPT tool demonstration (/portfolio/news-proxy/)
+├── privacy-policy.markdown # GDPR-compliant privacy policy
+├── sitemap.xml             # Dynamic sitemap generation
+├── Makefile               # Development and deployment automation
+└── README.md              # This documentation
+```
 ├── about.markdown          # Enhanced about page with visual approach cards
 ├── services.markdown       # Services page with visual grids and delivery models
 ├── knowu.markdown          # KnowU product showcase page
@@ -62,7 +81,7 @@ mxm-consulting/
 ### Homepage (`index.markdown`)
 - **Hero Section** - IT consulting expertise introduction
 - **Client Showcase** - Interactive logos with company links
-- **Expertise Grid** - Visual service areas with icons
+- **Interactive Slideshow** - Windows-style horizontal scrollable expertise cards with touch/swipe support
 - **Technology Stack** - Comprehensive list of tools and methodologies
 - **Contact Form** - Integrated Formspree contact system
 
@@ -80,6 +99,18 @@ mxm-consulting/
 - **Specialized Expertise** - DevOps, data solutions, enterprise integration
 - **Industry Focus** - Target market specializations
 - **Service Delivery Models** - On-site, remote, and hybrid options with spacing
+
+### Portfolio Page (`portfolio.markdown`)
+- **Project Showcase** - Featured projects with direct navigation links
+- **Technical Capabilities** - AI, web development, and cloud expertise demonstration
+- **Development Approach** - Innovation focus and quality standards
+- **Project Links** - Direct access to KnowU, Capitol Conquest, and Headliner
+
+### Capitol Conquest Game (`game.markdown`)
+- **Game Showcase** - Strategic hexagonal grid game demonstration
+- **Technical Implementation** - Phaser.js, JavaScript algorithms, and AI opponent
+- **Game Features** - Responsive design, touch controls, and persistent scoring
+- **Development Highlights** - Modular architecture and performance optimization
 - **Contact Information** - Direct consultation invitation
 
 ### KnowU Page (`knowu.markdown`)
@@ -108,6 +139,9 @@ mxm-consulting/
 - **Google Analytics** - Website analytics and user behavior tracking
 
 ### Recent Technical Enhancements
+- **Interactive Slideshow Component** - Windows-style horizontal scrolling with touch/swipe support
+- **Modular JavaScript Architecture** - External JavaScript files for better maintainability
+- **Portfolio Organization** - Structured project showcase with /portfolio/ URL organization
 - **CSS Grid Layouts** - Expertise grids and service delivery models
 - **Smooth Scrolling** - Enhanced user experience with scroll-behavior
 - **Active Navigation States** - Dynamic highlighting of current page
@@ -290,20 +324,29 @@ If you need to deploy to a different hosting provider:
 ## Recent Updates (2025)
 
 ### Major Feature Additions
+- **Portfolio Organization** - Comprehensive portfolio section with project showcase and structured navigation
+- **Interactive Homepage Slideshow** - Windows-style horizontal scrolling with touch/swipe support and auto-play
+- **Capitol Conquest Game Integration** - Strategic game demonstration showcasing web development expertise
 - **KnowU Product Integration** - Complete product page with full-width logo display
 - **Headliner AI Tool Showcase** - Custom ChatGPT demonstration with Finnish news optimization
 - **Enhanced Services Page** - Visual service grids with delivery model options
 - **Improved About Page** - Interactive approach cards and technology grids
-- **Navigation Improvements** - Active states and compact footer design
+- **Modular JavaScript Architecture** - External JavaScript files for better code organization
 
 ### Design System Enhancements
+- **Slideshow Component Design** - Professional slideshow with navigation arrows, indicators, and responsive behavior
 - **CSS Grid Implementation** - Consistent grid layouts across all pages
 - **Visual Card Components** - Standardized card design for services and features
+- **Portfolio Navigation Structure** - Organized /portfolio/ URL structure with centralized project access
 - **Responsive Image Handling** - Full-width logos with proper scaling
 - **Emoji Integration** - Strategic use of emojis for visual hierarchy
 - **Spacing Optimization** - Improved whitespace and component spacing
 
 ### Technical Improvements
+- **JavaScript Modularization** - Separated slideshow functionality into external files
+- **Portfolio URL Structure** - Organized project pages under /portfolio/ hierarchy
+- **Touch/Swipe Navigation** - Mobile-optimized gesture controls for slideshow
+- **Accessibility Enhancements** - ARIA labels, keyboard navigation, and screen reader support
 - **Layout Standardization** - Consistent use of `layout: default` across pages
 - **Image Path Optimization** - Absolute paths for reliable image loading
 - **Contact CTA Integration** - Professional contact sections on product pages

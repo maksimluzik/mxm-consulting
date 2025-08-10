@@ -1,7 +1,7 @@
 ---
 layout: default
 title: KnowU
-permalink: /knowu/
+permalink: /portfolio/knowu/
 ---
 
 # KnowU - Personal Growth Through Self-Assessment

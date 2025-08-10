@@ -3,7 +3,7 @@ layout: default
 title: "Headliner: The News Distilled - Custom ChatGPT by MXM Consulting"
 description: "Headliner cuts through the noise to give you clean, concise summaries of any news article (URL). Just the headlines, highlights, and must-know facts — all in your language, all in seconds."
 keywords: "ChatGPT, custom GPT, news summarization, AI news, Headliner, artificial intelligence, news distillation, MXM Consulting, machine learning, news analysis, article summarizer"
-permalink: /news-proxy/
+permalink: /portfolio/news-proxy/
 order: 5
 # Open Graph / Social Media
 og_image: /assets/img/headliner-screenshot.png
@@ -13,13 +13,18 @@ og_description: "Headliner cuts through the noise to give you clean, concise sum
 # LinkedIn specific
 linkedin_title: "Headliner: The News Distilled - Custom ChatGPT by MXM Consulting"
 linkedin_description: "Headliner cuts through the noise to give you clean, concise summaries of any news article (URL). Just the headlines, highlights, and must-know facts — all in your language, all in seconds."
-canonical_url: https://mxm-consulting.fi/news-proxy/
+canonical_url: https://mxm-consulting.fi/portfolio/news-proxy/
 ---
 
 # Headliner: The News Distilled
 
 ## Professional News Article Summarizer
-[Try Headliner →](https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled){:target="_blank" rel="noopener noreferrer"}
+
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" style="display: inline-block; padding: 15px 30px; background-color: #000; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; transition: all 0.3s ease;">
+    Try Headliner →
+  </a>
+</div>
 
 <div class="headliner-hero">
   <img src="/assets/img/headliner-screenshot.png" alt="Headliner ChatGPT Screenshot" class="headliner-screenshot" />

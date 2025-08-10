@@ -75,38 +75,73 @@ With over 15 years of experience across IT, e-commerce, banking, and advertising
 
 ### <center>Our Comprehensive IT Expertise & Services</center>
 
-<div class="expertise-grid">
-  <div class="expertise-item">
-    <h3>Cloud Services</h3>
-    <p>Expertise in AWS and Google Cloud</p>
-    <img src="assets/img/cloud.png" alt="Cloud Services" />
+<div class="slideshow-container" role="region" aria-label="IT Expertise Services Slideshow">
+  <button class="slideshow-nav prev" onclick="slideshow.prev()" aria-label="Previous service">
+    <span aria-hidden="true">‹</span>
+  </button>
+  
+  <div class="slideshow-wrapper">
+    <div class="slideshow-track" id="expertiseSlideshow">
+      <div class="slide-item" tabindex="0" role="group" aria-label="Cloud Services">
+        <div class="slide-content">
+          <img src="assets/img/cloud.png" alt="Cloud Services" />
+          <h3>Cloud Services</h3>
+          <p>Expertise in AWS and Google Cloud</p>
+        </div>
+      </div>
+      <div class="slide-item" tabindex="0" role="group" aria-label="Software Architecture">
+        <div class="slide-content">
+          <img src="assets/img/architecture.png" alt="Software Architecture" />
+          <h3>Software Architecture</h3>
+          <p>Designing robust and scalable systems</p>
+        </div>
+      </div>
+      <div class="slide-item" tabindex="0" role="group" aria-label="App Development">
+        <div class="slide-content">
+          <img src="assets/img/app.png" alt="App Development" />
+          <h3>App Development</h3>
+          <p>Creating web and native applications</p>
+        </div>
+      </div>
+      <div class="slide-item" tabindex="0" role="group" aria-label="Artificial Intelligence">
+        <div class="slide-content">
+          <img src="assets/img/ai.png" alt="Artificial Intelligence" />
+          <h3>Artificial Intelligence</h3>
+          <p>Training and fine-tuning AI models</p>
+        </div>
+      </div>
+      <div class="slide-item" tabindex="0" role="group" aria-label="Automation">
+        <div class="slide-content">
+          <img src="assets/img/automation.png" alt="Automation" />
+          <h3>Automation</h3>
+          <p>Streamlining processes for efficiency</p>
+        </div>
+      </div>
+      <div class="slide-item" tabindex="0" role="group" aria-label="IT Management">
+        <div class="slide-content">
+          <img src="assets/img/management.png" alt="IT Management" />
+          <h3>IT Management</h3>
+          <p>Management and team collaboration</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="expertise-item">
-    <h3>Software Architecture</h3>
-    <p>Designing robust and scalable systems</p>
-    <img src="assets/img/architecture.png" alt="Software Architecture" />
-  </div>
-  <div class="expertise-item">
-    <h3>App Development</h3>
-    <p>Creating web and native applications</p>
-    <img src="assets/img/app.png" alt="App Development" />
-  </div>
-  <div class="expertise-item">
-    <h3>Artificial Intelligence</h3>
-    <p>Training and fine-tuning AI models</p>
-    <img src="assets/img/ai.png" alt="Artificial Intelligence" />
-  </div>
-  <div class="expertise-item">
-    <h3>Automation</h3>
-    <p>Streamlining processes for efficiency</p>
-    <img src="assets/img/automation.png" alt="Automation" />
-  </div>
-   <div class="expertise-item">
-    <h3>IT Management</h3>
-    <p>Management and team collaboration</p>
-    <img src="assets/img/management.png" alt="IT Management" />
+  
+  <button class="slideshow-nav next" onclick="slideshow.next()" aria-label="Next service">
+    <span aria-hidden="true">›</span>
+  </button>
+  
+  <div class="slideshow-indicators" role="tablist" aria-label="Slide indicators">
+    <button role="tab" aria-label="Go to slide 1" onclick="slideshow.goToSlide(0)"></button>
+    <button role="tab" aria-label="Go to slide 2" onclick="slideshow.goToSlide(1)"></button>
+    <button role="tab" aria-label="Go to slide 3" onclick="slideshow.goToSlide(2)"></button>
+    <button role="tab" aria-label="Go to slide 4" onclick="slideshow.goToSlide(3)"></button>
+    <button role="tab" aria-label="Go to slide 5" onclick="slideshow.goToSlide(4)"></button>
+    <button role="tab" aria-label="Go to slide 6" onclick="slideshow.goToSlide(5)"></button>
   </div>
 </div>
+
+<script src="/assets/js/slideshow.js"></script>
 
 Some of the principles and technologies we have experience with, but are not limited to:
 * Event-driven architecture (EDA) - Kafka
