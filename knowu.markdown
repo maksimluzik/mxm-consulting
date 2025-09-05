@@ -7,15 +7,23 @@ permalink: /portfolio/knowu/
 <section class="page-hero minimal" aria-labelledby="knowu-heading">
   <div class="mxm-container">
     <h1 id="knowu-heading">KnowU Platform</h1>
-    <p class="lead">Integrated personality & feedback intelligence—self-assessment, peer signal aggregation & longitudinal growth insight.</p>
+    <p class="lead">Integrated personality & feedback intelligence—self-assessment, peer signal aggregation & longitudinal growth trajectories.</p>
+    <div class="portfolio-meta" data-reveal>
+      <span class="badge" data-accent>Active Beta</span>
+      <span class="badge">iOS Native</span>
+      <span class="badge">Android Native</span>
+      <span class="badge">PWA</span>
+      <span class="badge">Analytics</span>
+      <span class="badge">AI Insights</span>
+    </div>
   </div>
 </section>
 
 <section class="section" aria-labelledby="logo-heading">
-  <div class="mxm-container media-figure">
-    <img src="{{ '/assets/img/know-u-logo-big-grey.png' | relative_url }}" alt="KnowU Logo" />
+  <div class="mxm-container media-figure glass" data-reveal>
+    <img src="{{ '/assets/img/know-u-logo-big-grey.png' | relative_url }}" alt="KnowU Platform Logo" width="420" height="420" loading="lazy" />
     <div class="actions">
-      <a href="https://knowu.app/" target="_blank" rel="noopener" class="btn accent">Visit KnowU.app</a>
+      <a href="https://knowu.app/" target="_blank" rel="noopener" class="btn accent">Visit KnowU</a>
       <a href="https://knowu.app/join" target="_blank" rel="noopener" class="btn dark">Join Beta</a>
     </div>
   </div>
@@ -27,37 +35,22 @@ permalink: /portfolio/knowu/
 
 KnowU is a comprehensive platform for personal and professional growth, combining self-assessment, peer feedback, and social media insights to help individuals understand and enhance their personality and relationships.
 
-### Key Features
+### Key Feature Pillars
 
-<div class="feature-grid" style="margin-top:2.25rem;">
-  <div class="feature-card">
-    <h4>Personality Engine</h4>
-    <p>Multi-model blend (MBTI, DISC, Big Five alignment) powering tailored trait mapping.</p>
-  </div>
-  <div class="feature-card">
-    <h4>Peer Signal Layer</h4>
-    <p>Anonymous external feedback channel normalizing perception variance.</p>
-  </div>
-  <div class="feature-card">
-    <h4>Growth Timeline</h4>
-    <p>Longitudinal tracking highlighting deltas & pattern emergence.</p>
-  </div>
-  <div class="feature-card">
-    <h4>Insight Modules</h4>
-    <p>Structured recommendations & focus theme surfacing.</p>
-  </div>
-  <div class="feature-card">
-    <h4>Social Graph (Upcoming)</h4>
-    <p>Relationship overlap & communication style projection.</p>
-  </div>
+<div class="feature-grid" style="margin-top:2.25rem;" data-reveal>
+  <div class="feature-card"><h4>Personality Engine</h4><p>Multi-model fusion (MBTI / DISC alignment + trait vectors) enabling adaptive profiles.</p></div>
+  <div class="feature-card"><h4>Peer Signal Layer</h4><p>Anonymous calibrated peer reflections smooth perception variance.</p></div>
+  <div class="feature-card"><h4>Growth Timeline</h4><p>Temporal deltas & trend emergence across assessment intervals.</p></div>
+  <div class="feature-card"><h4>Insight Modules</h4><p>Guided focus themes & actionable improvement surfaces.</p></div>
+  <div class="feature-card"><h4>Social Graph (R&D)</h4><p>Relational overlap + comms pattern projection (privacy guard‑rails).</p></div>
 </div>
 
-### How It Works
+### Flow
 
-1. **Self-Assessment**: Complete comprehensive personality questionnaires
-2. **Peer Input**: Invite friends and colleagues to provide anonymous feedback
-3. **Insights & Analysis**: Receive detailed reports on your personality traits and growth areas
-4. **Track Progress**: Monitor your personal development over time
+1. **Self-Assessment** — high‑resolution multi‑angle baseline capture
+2. **Peer Input** — invite cohort; aggregated anonymized perception vectors
+3. **Insight Synthesis** — weighting + trait coherence + divergence surfacing
+4. **Growth Tracking** — longitudinal comparison & momentum indicators
 
 **MXM Consulting is proud to be building KnowU**, leveraging our expertise in:
 
@@ -66,28 +59,20 @@ KnowU is a comprehensive platform for personal and professional growth, combinin
 - **User Experience Design**: Ensuring the platform is accessible and engaging
 - **Cloud Infrastructure**: Building scalable, secure backend systems
 
-### Platform Availability
+### Platform Surface Matrix
 
-Available during controlled beta on:
-
-<div class="feature-grid" style="margin-top:2.25rem;">
-  <div class="feature-card">
-    <h4>iOS (Native)</h4>
-    <p>Internal TestFlight – Swift + secure sync layer.</p>
-  </div>
-  <div class="feature-card">
-    <h4>Android (Native)</h4>
-    <p>Closed Beta – Kotlin modular architecture.</p>
-  </div>
-  <div class="feature-card">
-    <h4>Web App</h4>
-    <p>Active – Responsive PWA shell at <a href="https://me.knowu.app" target="_blank" rel="noopener">me.knowu.app</a>.</p>
-  </div>
+<div class="stat-cards" data-reveal>
+  <div class="stat-card"><h4>iOS</h4><p>SwiftUI + CoreData sync</p><small>TestFlight Cohort</small></div>
+  <div class="stat-card"><h4>Android</h4><p>Compose + Modular</p><small>Closed Beta</small></div>
+  <div class="stat-card"><h4>Web</h4><p>PWA Shell</p><small>Active</small></div>
+  <div class="stat-card"><h4>Analytics</h4><p>Engagement & Retention</p><small>Internal</small></div>
 </div>
+
+<br/>
 
 ### Join the Beta
 
-Early feedback cycles focus on calibration accuracy, insight clarity & retention patterns. Request access at <https://knowu.app/join>.
+Calibration focus: scoring reliability, perceived accuracy, clarity & longitudinal retention. Request access at <https://knowu.app/join>.
 
 ---
 
@@ -101,20 +86,20 @@ Early feedback cycles focus on calibration accuracy, insight clarity & retention
 
 <br />
 
-## About MXM Consulting's Development Expertise
+## MXM Consulting Delivery Scope
 
-KnowU showcases MXM Consulting's comprehensive capabilities in building modern, scalable applications. Our specializations include:
+KnowU exemplifies MXM Consulting's multi-surface product engineering capability:
 
-- **Cross-Platform Mobile Development** for iOS and Android applications
-- **Progressive Web Applications** with offline capabilities and native-like experiences
-- **Real-Time Data Processing** for personality assessments and analytics
-- **User Experience Design** focused on engagement and retention
-- **Cloud Infrastructure** supporting multi-platform deployments
+- **Cross-Platform Native & Web** build pipelines (SwiftUI / Jetpack Compose / PWA)
+- **Data & Analytics Layer** for assessment normalization and growth vector math
+- **Adaptive UX** with accessibility & retention instrumentation
+- **Secure Cloud Architecture** (scalable API + privacy-first storage)
+- **Experimentation Framework** for scoring adjustments & feature gating
 
 <section class="section gradient-dark" aria-labelledby="knowu-cta-heading">
   <div class="mxm-container">
-    <h2 id="knowu-cta-heading">Need Mobile or Web Application Development?</h2>
-    <p style="max-width:760px;">Discuss how we can architect & accelerate multi-surface platforms with data, personalization & AI augmentation layers.</p>
+  <h2 id="knowu-cta-heading">Need Multi-Surface Product Acceleration?</h2>
+  <p style="max-width:760px;">Architect & launch data‑driven native + web platforms with AI augmentation, analytics & secure cloud foundations.</p>
     <div class="hero-cta" style="margin-top:1.3rem;">
       <a href="/#contact" class="btn accent">Get in Touch</a>
       <a href="/services/" class="btn outline">View Services</a>

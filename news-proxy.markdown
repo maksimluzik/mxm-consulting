@@ -19,20 +19,26 @@ canonical_url: https://mxm-consulting.fi/portfolio/news-proxy/
 <section class="page-hero minimal" aria-labelledby="headliner-heading">
   <div class="mxm-container">
     <h1 id="headliner-heading">Headliner – News Distilled</h1>
-    <p class="lead">URL-based article parsing + concise multilingual summarization with fact emphasis & structure discipline.</p>
-  </div>
-</section>
-
-<section class="section" aria-labelledby="hero-media">
-  <div class="mxm-container media-figure">
-    <img src="/assets/img/headliner-screenshot.png" alt="Headliner screenshot" />
-    <div class="actions">
-      <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" rel="noopener" class="btn accent">Try Headliner</a>
+    <p class="lead">URL ingestion → extraction → multilingual factual compression with structural discipline & latency focus.</p>
+    <div class="portfolio-meta" data-reveal>
+      <span class="badge" data-accent>Custom GPT</span>
+      <span class="badge">Language Aware</span>
+      <span class="badge">Fast Cycle</span>
+      <span class="badge">Fact Focused</span>
+      <span class="badge">Finnish Tuned</span>
     </div>
   </div>
 </section>
 
----
+<section class="section" aria-labelledby="hero-media">
+  <div class="mxm-container media-figure glass" data-reveal>
+    <img src="/assets/img/headliner-screenshot.png" alt="Headliner screenshot" width="960" height="540" loading="lazy" />
+    <div class="actions">
+      <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" rel="noopener" class="btn accent">Try Headliner</a>
+    </div>
+    <p style="font-size:.7rem;opacity:.55;margin-top:.75rem;">Latency-optimized summarization pipeline • Structured factual output</p>
+  </div>
+</section>
 
 <div class="mxm-container prose" markdown="1">
 
@@ -53,7 +59,7 @@ This custom ChatGPT by MXM Consulting transforms how you consume news by providi
   <div class="feature-card"><h4>🇫🇮 Finnish Tuned</h4><p>Optimized handling for HS, IL & IS sources.</p></div>
 </div>
 
----
+
 
 ## How Headliner Works
 
@@ -75,7 +81,7 @@ This custom ChatGPT by MXM Consulting transforms how you consume news by providi
 - Articles in multiple languages
 - Various news formats and layouts
 
----
+
 
 ## Why Headliner?
 
@@ -91,7 +97,7 @@ Headliner delivers:
 
 As AI development experts, MXM Consulting designed Headliner for **Busy Professionals** who need quick, accurate news summaries
 
----
+
 
 ## Technical Specifications
 
@@ -116,7 +122,7 @@ As AI development experts, MXM Consulting designed Headliner for **Busy Professi
   </div>
 </div>
 
----
+
 
 ## Get Started with Headliner
 
@@ -131,21 +137,22 @@ Ready to streamline your news consumption?
 
 **Need Support?** Email us at [headliner@mxm-consulting.fi](mailto:headliner@mxm-consulting.fi) for feedback or assistance.
 
----
 
-## About MXM Consulting's AI Solutions
-## About MXM Consulting's AI Solutions
 
-Headliner demonstrates MXM Consulting's expertise in developing practical AI tools for real-world applications. Our specializations include:
+## MXM Consulting AI Capability
 
-- **Custom ChatGPT Development and prompt engineering** for specific business needs
-- **Content Processing Systems** with API integrations
-- **Automation and Intelligent Workflows** for Information Processing
+Headliner reflects delivery patterns we apply across production AI augmentation layers:
+
+- **Custom ChatGPT / Prompt Engineering** (structured instruction design)
+- **Content Extraction Pipelines** (multi-source normalization)
+- **Latency Optimization & Caching Strategies**
+- **Multilingual Handling & Token Efficiency**
+- **Workflow Automation & Knowledge Compression**
 
 <section class="section gradient-dark" aria-labelledby="headliner-cta-heading">
   <div class="mxm-container">
-    <h2 id="headliner-cta-heading">Need Custom AI Solutions?</h2>
-    <p style="max-width:760px;">We design production-focused AI augmentation layers—retrieval + summarization pipelines, structured extraction & decision assistance systems.</p>
+  <h2 id="headliner-cta-heading">Need Applied AI Summarization?</h2>
+  <p style="max-width:760px;">Retrieval + extraction + compression stacks for news, research & operational intelligence—secure & latency aware.</p>
     <div class="hero-cta" style="margin-top:1.3rem;">
       <a href="/#contact" class="btn accent">Get in Touch</a>
       <a href="/services/" class="btn outline">View Services</a>

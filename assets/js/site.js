@@ -18,9 +18,22 @@
       });
     }, { threshold: 0.15 });
     els.forEach(el => io.observe(el));
+
+    // New generic data-reveal support (2025 portfolio enhancements)
+    const drEls = document.querySelectorAll('[data-reveal]');
+    const io2 = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io2.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.18 });
+    drEls.forEach(el => io2.observe(el));
   } else {
     // Fallback: show elements immediately
     document.querySelectorAll('.reveal-up').forEach(el => el.classList.add('in'));
+    document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('in'));
   }
 
   // Accessible skip link injection (if not present in markup)

@@ -19,29 +19,35 @@ canonical_url: https://mxm-consulting.fi/portfolio/game/
 <section class="page-hero minimal" aria-labelledby="game-heading">
   <div class="mxm-container">
     <h1 id="game-heading">Capitol Conquest</h1>
-    <p class="lead">Strategic Hexxagon-inspired territory control—AI heuristics, multiplayer sockets & responsive canvas rendering.</p>
+    <p class="lead">Hex‑grid territory strategy — AI heuristics, WebSocket multiplayer, adaptive rendering & telemetry.</p>
+    <div class="portfolio-meta" data-reveal>
+      <span class="badge" data-accent>Live</span>
+      <span class="badge">Phaser 3</span>
+      <span class="badge">WebSocket</span>
+      <span class="badge">AI Heuristics</span>
+      <span class="badge">Analytics</span>
+      <span class="badge">Responsive</span>
+    </div>
   </div>
 </section>
 
 <section class="section" aria-labelledby="splash-heading">
-  <div class="mxm-container media-figure">
-    <img src="/assets/img/capitol-conquest-splash_square.png" alt="Capitol Conquest screenshot" />
+  <div class="mxm-container media-figure glass" data-reveal>
+    <img src="/assets/img/capitol-conquest-splash_square.png" alt="Capitol Conquest screenshot" width="560" height="560" loading="lazy" />
     <div class="actions">
       <a href="https://cc.maksimluzik.com/" target="_blank" rel="noopener" class="btn accent">Play Game</a>
-  <a href="https://github.com/maksimluzik/capitol-conquest" target="_blank" rel="noopener" class="btn dark">Source Code</a>
+      <a href="https://github.com/maksimluzik/capitol-conquest" target="_blank" rel="noopener" class="btn dark">Source Code</a>
     </div>
-    <p style="font-size:.7rem;opacity:.65;margin-top:.75rem;">Works on desktop & mobile • Live demo</p>
+    <p style="font-size:.7rem;opacity:.55;margin-top:.75rem;">Desktop + Mobile • Real-time Multiplayer • AI Bots</p>
   </div>
 </section>
 
----
+
 <div class="mxm-container prose" markdown="1">
 
 ## Overview
 
 Capitol Conquest is a modern, Hexxagon-style strategy game built with Phaser 3. Two parties compete for control on a hexagonal grid through tactical moves that duplicate or jump pieces and convert adjacent opponent tiles. The game includes adaptive AI with multiple difficulty levels, real-time online multiplayer, built‑in chat, analytics, and responsive UX across devices.
-
----
 
 ## Game Features
 
@@ -56,8 +62,6 @@ Capitol Conquest is a modern, Hexxagon-style strategy game built with Phaser 3. 
   <div class="feature-card"><h4>⚡ Smooth UX</h4><p>Keyboard nav, clear affordances, smart defaults.</p></div>
 </div>
 
----
-
 ## AI Implementation
 
 The computer opponent uses a greedy, single-depth heuristic that balances multiple factors. Each candidate move is simulated and scored using a weighted combination of:
@@ -69,8 +73,6 @@ The computer opponent uses a greedy, single-depth heuristic that balances multip
 - Small randomness (jitter) to prevent repetition
 
 Different difficulty levels adjust weights and starting advantages to create distinct play styles and challenge levels.
-
----
 
 ## Online Multiplayer System
 
@@ -88,8 +90,6 @@ Architecture highlights:
 - Room management and turn validation on the server
 - PM2 configuration for production uptime
 
----
-
 ## Statistics & Analytics
 
 Global and per-mode stats are captured for online matches:
@@ -99,16 +99,12 @@ Global and per-mode stats are captured for online matches:
 - Recent games view and performance analysis
 - Analytics via Google Tag Manager for user engagement and performance
 
----
-
 ## User Interface & UX
 
 - Branded title and themed party colors throughout the UI
 - Responsive menus with hover/touch feedback and clear state indicators
 - Keyboard support (arrow keys, Enter) and accessible defaults
 - Mobile optimizations for dynamic viewports, touch targets, and typography
-
----
 
 ## Technical Architecture
 
@@ -121,8 +117,6 @@ Global and per-mode stats are captured for online matches:
   <div class="spec-item"><strong>Build/Deploy:</strong> Static client (GitHub Pages) + Node server for multiplayer</div>
 </div>
 
----
-
 ## Deployment & Performance
 
 - Client hosted as a static site (GitHub Pages) with CDN assets
@@ -130,8 +124,6 @@ Global and per-mode stats are captured for online matches:
 - Efficient rendering and lazy asset loading for performance
 - Backend deployed to GCP compute instance
 - Mobile performance optimizations and caching strategies
-
----
 
 ## Game Rules
 
@@ -154,8 +146,6 @@ Control more tiles than your opponent when all playable hexes are filled.
 - ESC: return to menu; F: toggle fullscreen
 - Music control available in the UI; chat in online matches
 
----
-
 ## Try the Game
 
 <div class="cta-band">
@@ -165,28 +155,26 @@ Control more tiles than your opponent when all playable hexes are filled.
   <p style="margin-top:.75rem;font-size:.7rem;opacity:.65;">Repo: <a href="https://github.com/maksimluzik/capitol-conquest" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">GitHub</a></p>
 </div>
 
----
-
 ## Audio Credits
 
 - Sound effects from Freesound.org (Creative Commons licensed)
 - Background music generated with AIVA (Artificial Intelligence Virtual Artist)
 
----
 
-## About MXM Consulting's Web Development Expertise
+## MXM Consulting Capability Showcase
 
-This project demonstrates MXM Consulting's strength in interactive web development, AI implementation, and real-time systems:
+Demonstrates MXM Consulting strengths in:
 
-- Interactive web apps and game development with modern frameworks
-- AI/algorithm design and performance optimization
-- Real-time networking, analytics, and production deployment
-- Mobile-first design with accessible, responsive UX
+- **Interactive Web & Canvas Systems**
+- **AI / Heuristic Algorithm Design**
+- **Real-time Multiplayer State Synchronization**
+- **Telemetry & Analytics Instrumentation**
+- **Responsive & Accessible UI Architecture**
 
 <section class="section gradient-dark" aria-labelledby="game-cta-heading">
   <div class="mxm-container">
-    <h2 id="game-cta-heading">Need Interactive Web Development?</h2>
-    <p style="max-width:760px;">We architect performant real-time & interactive browser experiences—canvas rendering, multiplayer state sync, AI opponent logic & instrumentation.</p>
+  <h2 id="game-cta-heading">Need Real-Time Interactive Systems?</h2>
+  <p style="max-width:760px;">Phaser / Canvas / WebGL experiences, AI opponent design, multiplayer orchestration & performance analytics — end to end.</p>
     <div class="hero-cta" style="margin-top:1.3rem;">
       <a href="/#contact" class="btn accent">Get in Touch</a>
       <a href="/services/" class="btn outline">Explore Services</a>

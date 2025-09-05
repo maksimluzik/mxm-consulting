@@ -20,8 +20,8 @@ canonical_url: https://mxm-consulting.fi
 <section class="hero full-bleed" aria-label="Hero">
   <picture>
     <!-- Example hero image reference; replace hero-bg.jpg with an optimized asset placed under /assets/img/ -->
-    <source srcset="/assets/img/hero-bg2.png" type="image/png" />
-    <img class="hero__bg" src="/assets/img/hero-bg2.png" alt="Abstract technology background representing cloud architecture" loading="eager" decoding="async" />
+    <source srcset="/assets/img/hero-bg-light-blue.png" type="image/png" />
+    <img class="hero__bg" src="/assets/img/hero-bg-light-blue.png" alt="Abstract technology background representing cloud architecture" loading="eager" decoding="async" />
   </picture>
   <div class="mxm-container hero__content">
     <div class="hero-tag" aria-hidden="true">MXM CONSULTING</div>
