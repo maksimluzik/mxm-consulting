@@ -3,7 +3,12 @@
         <div class="brand-wrap">
             {% if site.logo %}
                 <a class="brand" href="/" aria-label="MXM Consulting Home">
-                    <img class="brand-logo" alt="MXM Consulting logo" src="{{ site.logo | escape | prepend: "/assets/img/" | relative_url }}" decoding="async" />
+                    <picture>
+                        <!-- Mobile specific logo -->
+                        <source media="(max-width: 640px)" srcset="{{ '/assets/img/mxm-logo-black.jpg' | relative_url }}" />
+                        <!-- Default / desktop logo -->
+                        <img class="brand-logo" alt="MXM Consulting logo" src="{{ site.logo | escape | prepend: "/assets/img/" | relative_url }}" decoding="async" fetchpriority="high" />
+                    </picture>
                 </a>
             {% endif %}
         </div>

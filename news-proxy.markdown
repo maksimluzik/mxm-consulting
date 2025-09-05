@@ -32,7 +32,7 @@ canonical_url: https://mxm-consulting.fi/portfolio/news-proxy/
 
 <section class="section" aria-labelledby="hero-media">
   <div class="mxm-container media-figure glass" data-reveal>
-    <img src="/assets/img/headliner-screenshot.png" alt="Headliner screenshot" width="960" height="540" loading="lazy" />
+    <img src="/assets/img/headliner-screenshot.png" alt="Headliner screenshot" width="620" loading="lazy" />
     <div class="actions">
       <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" rel="noopener" class="btn accent">Try Headliner</a>
     </div>

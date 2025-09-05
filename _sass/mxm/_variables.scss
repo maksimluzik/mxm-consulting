@@ -1,0 +1,54 @@
+/* =============================================================
+   Variables / Theme (CSS Custom Properties)
+   ============================================================= */
+:root {
+  --mxm-font-sans: 'Inter', 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+  --mxm-font-mono: 'JetBrains Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+  --mxm-color-bg: #ffffff;
+  --mxm-color-bg-alt: #f5f7fa;
+  --mxm-color-surface: #ffffff;
+  --mxm-color-border: #e2e8f0;
+  --mxm-color-text: #1a202c;
+  --mxm-color-text-soft: #4a5568;
+  --mxm-color-primary: #182640;
+  --mxm-color-primary-accent: #0043ce;
+  --mxm-color-accent: #6366f1;
+  --mxm-color-accent-alt: #14b8a6;
+  --mxm-color-gradient: linear-gradient(135deg,#0f62fe 0%,#6366f1 50%,#14b8a6 100%);
+  --mxm-radius-xs: 3px;
+  --mxm-radius-sm: 6px;
+  --mxm-radius-md: 12px;
+  --mxm-radius-lg: 20px;
+  --mxm-shadow-sm: 0 1px 2px rgba(0,0,0,.06),0 1px 3px rgba(0,0,0,.1);
+  --mxm-shadow-md: 0 4px 12px -2px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+  --mxm-shadow-lg: 0 10px 25px -5px rgba(0,0,0,.15),0 8px 10px -6px rgba(0,0,0,.08);
+  --mxm-max-width: 1280px;
+  --mxm-container-pad: clamp(1rem, 2.2vw, 3rem);
+  --mxm-grid-gap: clamp(1rem, 1.8vw, 2.5rem);
+  --mxm-timing-fast: 150ms;
+  --mxm-timing: 260ms;
+  --mxm-timing-slow: 600ms;
+  --mxm-ease: cubic-bezier(.4,.0,.2,1);
+  --mxm-ease-bounce: cubic-bezier(.34,1.56,.64,1);
+  --mxm-line-height: 1.4;
+  --mxm-hero-height: clamp(520px, 70vh, 840px);
+  --mxm-focus: 0 0 0 3px rgba(15,98,254,.35),0 0 0 6px rgba(15,98,254,.15);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mxm-color-bg: #0f1115;
+    --mxm-color-bg-alt: #161a20;
+    --mxm-color-surface: #1d222a;
+    --mxm-color-border: #2a3039;
+    --mxm-color-text: #f1f5f9;
+    --mxm-color-text-soft: #94a3b8;
+    --mxm-color-primary: #60a5fa;
+    --mxm-color-primary-accent: #3b82f6;
+    --mxm-color-accent: #818cf8;
+    --mxm-color-accent-alt: #2dd4bf;
+    --mxm-color-gradient: linear-gradient(135deg,#3b82f6 0%,#6366f1 50%,#2dd4bf 100%);
+    --mxm-shadow-sm: 0 1px 2px rgba(0,0,0,.6),0 1px 3px rgba(0,0,0,.4);
+    --mxm-shadow-md: 0 4px 12px -2px rgba(0,0,0,.55),0 2px 4px -1px rgba(0,0,0,.4);
+    --mxm-shadow-lg: 0 10px 25px -5px rgba(0,0,0,.7),0 8px 10px -6px rgba(0,0,0,.5);
+  }
+}

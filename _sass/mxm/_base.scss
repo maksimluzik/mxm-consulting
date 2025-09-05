@@ -1,0 +1,13 @@
+/* Base / Typography / Focus */
+html { font-family: var(--mxm-font-sans); -webkit-font-smoothing: antialiased; scroll-behavior:smooth; }
+body.site-body { background: var(--mxm-color-bg); color: var(--mxm-color-text); line-height: var(--mxm-line-height); }
+
+h1,h2,h3,h4,h5 { font-weight:600; letter-spacing:-.02em; }
+h1 { font-size:clamp(2.5rem,5vw,3.75rem); line-height:1.05; }
+h2 { font-size:clamp(1.9rem,3.2vw,2.6rem); line-height:1.15; }
+h3 { font-size:clamp(1.35rem,2vw,1.75rem); }
+p,li { font-size: clamp(.98rem,1.15vw,1.05rem); }
+
+:where(a,button,[role="button"],input,textarea,select):focus-visible{outline:none;box-shadow:var(--mxm-focus);border-radius:var(--mxm-radius-xs);}
+
+*,*::before,*::after{box-sizing:border-box;}

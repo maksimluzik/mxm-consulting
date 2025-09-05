@@ -1,0 +1,10 @@
+/* Buttons */
+.btn { --_bg: var(--mxm-color-primary); --_bg-hover: var(--mxm-color-primary-accent); position:relative; display:inline-flex; align-items:center; justify-content:center; gap:.5rem; font-weight:600; font-size:.95rem; padding:.95rem 1.35rem; text-decoration:none; color:#fff !important; background: var(--_bg); border-radius: var(--mxm-radius-sm); box-shadow: var(--mxm-shadow-sm); transition: background var(--mxm-timing) var(--mxm-ease), transform var(--mxm-timing-fast) var(--mxm-ease), box-shadow var(--mxm-timing-fast) var(--mxm-ease); }
+.btn:hover { background: var(--_bg-hover); transform:translateY(-2px); box-shadow: var(--mxm-shadow-md); text-decoration:none; }
+.btn:active { transform:translateY(0); box-shadow: var(--mxm-shadow-sm); }
+.btn.outline { background:rgba(255,255,255,.08); color:#fff; --_bg:rgba(255,255,255,.08); --_bg-hover:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.25); }
+.btn.outline-light { background:transparent; color: var(--mxm-color-primary) !important; border:1px solid var(--mxm-color-border); --_bg:transparent; --_bg-hover:var(--mxm-color-bg-alt); box-shadow:none; }
+.btn.outline-light:hover { background:var(--mxm-color-bg-alt); box-shadow: var(--mxm-shadow-sm); }
+@media (prefers-color-scheme: dark){ .btn.outline-light { color: var(--mxm-color-text) !important; border-color: var(--mxm-color-border); } .btn.outline-light:hover { background:#1d222a; }}
+.btn.dark { --_bg:#1f2937; --_bg-hover:#111827; }
+.btn.accent { --_bg: var(--mxm-color-accent); --_bg-hover: var(--mxm-color-primary); }

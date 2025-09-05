@@ -29,6 +29,7 @@ canonical_url: https://mxm-consulting.fi
   <p class="hero-lead">Strategic technical due diligence, scalable software architecture, and pragmatic cloud solutions. 15+ years delivering impact across finance, SaaS, media & enterprise platforms.</p>
   <div class="hero-cta">
       <a href="#contact" class="btn accent">Start a Conversation</a>
+      <a href="/about/" class="btn outline">About Us</a>
       <a href="/services/" class="btn outline">View Services</a>
     </div>
   </div>
