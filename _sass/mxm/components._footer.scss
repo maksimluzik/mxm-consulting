@@ -1,6 +1,9 @@
 /* Footer modern + legacy */
 .site-footer { background: var(--mxm-color-bg-alt); border-top:1px solid var(--mxm-color-border); margin-top:4rem; padding:30px 0; }
 .site-footer .footer-heading { background:linear-gradient(90deg,var(--mxm-color-primary),var(--mxm-color-accent-alt)); -webkit-background-clip:text; color:transparent; font-weight:700; font-size:1.1rem; letter-spacing:.04em; }
+/* Smaller section headings inside footer */
+.site-footer h3 { font-size: clamp(.7rem, calc(.75rem + 0.2vw), .85rem); letter-spacing:.08em; text-transform:uppercase; font-weight:600; margin:1.1rem 0 .65rem; color: var(--mxm-color-text-soft); }
+.site-footer h3:first-of-type { margin-top:.25rem; }
 .footer-col-wrapper { display:flex; gap:clamp(2rem,4vw,4rem); margin-left:-15px; }
 .footer-col { padding-left:15px; }
 .footer-col-1 { flex:2; min-width:250px; }

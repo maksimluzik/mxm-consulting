@@ -5,6 +5,6 @@
 .contact-form textarea { min-height:140px; }
 @media (prefers-color-scheme: dark){ .contact-form input,.contact-form textarea { background:#0f1115; color: var(--mxm-color-text); } }
 .contact-form input:focus,.contact-form textarea:focus { outline:none; box-shadow: var(--mxm-focus); border-color: var(--mxm-color-primary); }
-.contact-form .submit-button { @extend .btn; --_bg: var(--mxm-color-primary); --_bg-hover: var(--mxm-color-primary-accent); font-size:.9rem; }
+.contact-form .submit-button { @extend .btn; font-size:.9rem; }
 @media (max-width:560px){ .contact-form { border-radius: var(--mxm-radius-md); padding:1.15rem 1rem; } }
 @media (max-width:420px){ .contact-form { padding:1rem .85rem; } }

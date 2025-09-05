@@ -1,5 +1,7 @@
 /* Buttons */
-.btn { --_bg: var(--mxm-color-primary); --_bg-hover: var(--mxm-color-primary-accent); position:relative; display:inline-flex; align-items:center; justify-content:center; gap:.5rem; font-weight:600; font-size:.95rem; padding:.95rem 1.35rem; text-decoration:none; color:#fff !important; background: var(--_bg); border-radius: var(--mxm-radius-sm); box-shadow: var(--mxm-shadow-sm); transition: background var(--mxm-timing) var(--mxm-ease), transform var(--mxm-timing-fast) var(--mxm-ease), box-shadow var(--mxm-timing-fast) var(--mxm-ease); }
+.btn { --_bg: var(--mxm-color-primary); --_bg-hover: var(--mxm-color-primary-accent); position:relative; display:inline-flex; align-items:center; justify-content:center; gap:.5rem; font-weight:600; font-size:.95rem; padding:.95rem 1.35rem; text-decoration:none; color:#fff !important; background: var(--_bg); border-radius: var(--mxm-radius-sm); box-shadow: var(--mxm-shadow-sm); transition: background var(--mxm-timing) var(--mxm-ease), transform var(--mxm-timing-fast) var(--mxm-ease), box-shadow var(--mxm-timing-fast) var(--mxm-ease); border:0; outline:0; }
+.btn:focus { outline:0; }
+.btn:focus-visible { outline:0; box-shadow:0 0 0 3px rgba(0,0,0,.35), var(--mxm-shadow-md); }
 .btn:hover { background: var(--_bg-hover); transform:translateY(-2px); box-shadow: var(--mxm-shadow-md); text-decoration:none; }
 .btn:active { transform:translateY(0); box-shadow: var(--mxm-shadow-sm); }
 .btn.outline { background:rgba(255,255,255,.08); color:#fff; --_bg:rgba(255,255,255,.08); --_bg-hover:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.25); }

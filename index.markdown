@@ -188,7 +188,7 @@ canonical_url: https://mxm-consulting.fi
       <input type="email" id="email" name="email" autocomplete="email" required>
       <label for="message">Your message</label>
       <textarea id="message" name="message" required></textarea>
-      <button type="submit" class="submit-button">Send Message</button>
+  <button type="submit" class="submit-button btn accent">Send Message</button>
     </form>
   </div>
 </section>
