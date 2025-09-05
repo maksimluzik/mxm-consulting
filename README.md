@@ -354,6 +354,91 @@ If you need to deploy to a different hosting provider:
 
 ## Support
 
+## 2025 Modernization Addendum
+
+### Overview
+The 2025 refresh introduces a modern full-bleed hero, fluid typography, CSS variable theming, dark mode support (via prefers-color-scheme), accessible focus states, IntersectionObserver reveal animations, and a refined information architecture using semantic section wrappers.
+
+### New / Updated Files
+- `_layouts/default.html` – Simplified main structure, added `no-js` class management and deferred site script.
+- `assets/main.scss` – Extended with design tokens (CSS variables), hero, card system, logo cloud, gradient sections, and animation utilities.
+- `assets/js/site.js` – Lightweight enhancement script (reveal animations + injected skip link).
+- `index.markdown` – Reauthored homepage using semantic `<section>` blocks, hero pattern, service cards, modern logo cloud, gradient contact CTA.
+
+### Full-Bleed Hero Implementation
+The hero uses `<picture>` with optional WebP fallback pattern:
+```
+<picture>
+   <source srcset="/assets/img/hero-bg.webp" type="image/webp" />
+   <img class="hero__bg" src="/assets/img/hero-bg.jpg" alt="..." />
+</picture>
+```
+Place both `hero-bg.webp` (primary) and `hero-bg.jpg` (fallback) into `assets/img/`. Use 2400–3000px width, optimized ≤450KB (WebP ideally ≤250KB). Compress with tools like Squoosh or ImageOptim.
+
+### Adding Additional Hero Variants
+Add new variants as `hero-alt-1.webp/jpg` etc. Then update the `<source>` list or use JavaScript to rotate (optional future enhancement).
+
+### Asset Placement Guidelines
+- Hero/background images: `assets/img/`
+- Client logos: `assets/img/clients/`
+- Service / capability icons: `assets/img/`
+- Supplemental JS modules (future): `assets/js/` (keep each concern isolated; avoid bundling overhead unless complexity increases)
+
+### Performance & Accessibility Notes
+- Animations respect `prefers-reduced-motion`
+- Dark mode inherits automatic color adjustments via CSS variables
+- Skip link auto-injected if not present (`#main` anchor)
+- Focus styles use layered outline via box-shadow for WCAG 2.1 AA visibility
+
+### Recommended Royalty-Free Image Sources
+Use high-resolution abstract technology / architecture imagery:
+- unsplash.com (search: cloud architecture, data center, abstract technology)
+- pexels.com (licensable for commercial use without attribution, still recommended)
+- pixabay.com (broad corporate gradients/backgrounds)
+- generated patterns: coolbackgrounds.io or haikei.app (ensure export compression)
+
+When selecting images:
+1. Favor subtle texture over busy detail for legible overlay text.
+2. Crop to 16:9 or wider (e.g., 21:9) for cinematic hero experience.
+3. Provide alt text describing concept (e.g., "Abstract network mesh representing cloud data flow").
+4. Always include a non-WebP fallback for Safari versions without full support.
+
+### Image Optimization Checklist
+- Convert master image to WebP (quality 60–75)
+- Provide JPEG fallback (progressive encode)
+- Strip EXIF metadata
+- Use logical naming (hero-bg, hero-bg-alt)
+- Validate color contrast (Overlay already darkens with gradient mask)
+
+### Extending the Design System
+Add new color tokens or spacing in the `:root` block of `assets/main.scss`. Keep naming consistent: `--mxm-color-*`, `--mxm-radius-*`, `--mxm-shadow-*`.
+
+### Adding Another Section
+```
+<section class="section alt" aria-labelledby="new-heading">
+   <div class="mxm-container">
+      <h2 id="new-heading">Section Title</h2>
+      <p>Support text...</p>
+   </div>
+</section>
+```
+
+### Future Enhancement Ideas (Optional)
+- Add CSS `prefers-color-scheme` explicit toggle button (store in localStorage)
+- Integrate a lightweight CSS container queries enhancement for finer layout adaptation
+- Add structured data for Services (`Service` / `Offer` schema) to further strengthen SEO
+- Implement image lazy-loading for below-the-fold sections (hero intentionally eager)
+
+### Quick QA Checklist After Image Replacement
+1. Lighthouse Performance > 90 (Desktop & Mobile)
+2. CLS remains stable (ensure hero height not collapsing before load)
+3. Text contrast passes AA (check hero overlay)
+4. Focus order logical (test TAB traversal)
+5. Mobile first paint under ~2s on 4G (approximate)
+
+---
+This modernization layer is additive—legacy classes remain for backward compatibility, allowing incremental adoption on secondary pages.
+
 For technical issues or questions about the website:
 
 - **Email**: maksim@mxm-consulting.fi

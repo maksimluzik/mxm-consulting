@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" class="no-js">
   {%- include head.html -%}
-
-  <body>
-
+  <body class="site-body {{ page.layout }}">
     {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <main id="main" class="site-main" aria-label="Main content">
+      {{ content }}
     </main>
-
-    {%- include footer.html -%}
-
+  {%- include footer.html -%}
+  <script>document.documentElement.classList.remove('no-js');</script>
+  {%- if page.slideshow -%}
+  <script src="/assets/js/slideshow.js" defer></script>
+  {%- endif -%}
+  <script src="/assets/js/site.js" defer></script>
   </body>
-
 </html>

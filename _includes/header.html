@@ -1,23 +1,26 @@
-<header class="site-header" role="banner">
-    <div class="wrapper">
-        <div class="header-top">
-            <div class="img-container">
-                {% if site.logo %}
-                    <a class="site-title" rel="author" href="/"><img class="site-logo" alt="logo" src="{{ site.logo | escape | prepend: "/assets/img/" | relative_url }}"/></a>
-                {% endif %}
-            </div>
-            
-            <nav class="main-nav">
-                <a href="{{ "/" | relative_url }}" class="nav-link {% if page.url == '/' %}nav-active{% endif %}">HOME</a>
-                <a href="{{ "/about/" | relative_url }}" class="nav-link {% if page.url contains '/about' %}nav-active{% endif %}">ABOUT</a>
-                <a href="{{ "/services/" | relative_url }}" class="nav-link {% if page.url contains '/services' %}nav-active{% endif %}">SERVICES</a>
-                <a href="{{ "/portfolio/" | relative_url }}" class="nav-link {% if page.url contains '/portfolio' %}nav-active{% endif %}">PORTFOLIO</a>
-                {% if page.url == '/' %}
-                    <a href="#contact" class="nav-link nav-contact">CONTACT</a>
-                {% else %}
-                    <a href="{{ "/" | relative_url }}#contact" class="nav-link nav-contact">CONTACT</a>
-                {% endif %}
-            </nav>
+<header class="site-header modern-nav" role="banner">
+    <div class="mxm-container nav-bar">
+        <div class="brand-wrap">
+            {% if site.logo %}
+                <a class="brand" href="/" aria-label="MXM Consulting Home">
+                    <img class="brand-logo" alt="MXM Consulting logo" src="{{ site.logo | escape | prepend: "/assets/img/" | relative_url }}" decoding="async" />
+                </a>
+            {% endif %}
         </div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <nav id="primary-nav" class="nav-links" aria-label="Primary">
+            <a href="{{ "/" | relative_url }}" class="nav-item {% if page.url == '/' %}active{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+            <a href="{{ "/about/" | relative_url }}" class="nav-item {% if page.url contains '/about' %}active{% endif %}" {% if page.url contains '/about' %}aria-current="page"{% endif %}>About</a>
+            <a href="{{ "/services/" | relative_url }}" class="nav-item {% if page.url contains '/services' %}active{% endif %}" {% if page.url contains '/services' %}aria-current="page"{% endif %}>Services</a>
+            <a href="{{ "/portfolio/" | relative_url }}" class="nav-item {% if page.url contains '/portfolio' %}active{% endif %}" {% if page.url contains '/portfolio' %}aria-current="page"{% endif %}>Portfolio</a>
+            {% if page.url == '/' %}
+                <a href="#contact" class="nav-item contact-cta btn outline-light small">Contact</a>
+            {% else %}
+                <a href="{{ "/" | relative_url }}#contact" class="nav-item contact-cta btn outline-light small">Contact</a>
+            {% endif %}
+        </nav>
     </div>
+    <script>document.addEventListener('DOMContentLoaded',function(){var t=document.querySelector('.nav-toggle');var n=document.getElementById('primary-nav');if(!t||!n)return;t.addEventListener('click',function(){var e=t.getAttribute('aria-expanded')==='true';t.setAttribute('aria-expanded',!e);n.classList.toggle('open',!e);document.documentElement.classList.toggle('nav-open',!e);});});</script>
 </header>

@@ -16,18 +16,26 @@ linkedin_description: "Explore MXM Consulting's web development expertise throug
 canonical_url: https://mxm-consulting.fi/portfolio/game/
 ---
 
-# Capitol Conquest - Strategic Hexxagon Game
-
-<div style="text-align: center; margin: 30px 0;">
-  <img src="/assets/img/capitol-conquest-splash_square.png" alt="Capitol Conquest Game Screenshot" style="width: 100%; max-width: 720px; height: auto; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
-  <div style="margin-top: 20px;">
-    <a href="https://cc.maksimluzik.com/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 15px 30px; background-color: #000; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; transition: all 0.3s ease;">Play Game →</a>
+<section class="page-hero minimal" aria-labelledby="game-heading">
+  <div class="mxm-container">
+    <h1 id="game-heading">Capitol Conquest</h1>
+    <p class="lead">Strategic Hexxagon-inspired territory control—AI heuristics, multiplayer sockets & responsive canvas rendering.</p>
   </div>
-  <p style="font-size: 13px; color: #6c757d; margin-top: 8px;">Live demo. Works on desktop and mobile.</p>
-  <p style="font-size: 12px; color: #6c757d;">Source code: <a href="https://github.com/maksimluzik/capitol-conquest" target="_blank" rel="noopener noreferrer">GitHub repo</a></p>
-</div>
+</section>
+
+<section class="section" aria-labelledby="splash-heading">
+  <div class="mxm-container media-figure">
+    <img src="/assets/img/capitol-conquest-splash_square.png" alt="Capitol Conquest screenshot" />
+    <div class="actions">
+      <a href="https://cc.maksimluzik.com/" target="_blank" rel="noopener" class="btn accent">Play Game</a>
+  <a href="https://github.com/maksimluzik/capitol-conquest" target="_blank" rel="noopener" class="btn dark">Source Code</a>
+    </div>
+    <p style="font-size:.7rem;opacity:.65;margin-top:.75rem;">Works on desktop & mobile • Live demo</p>
+  </div>
+</section>
 
 ---
+<div class="mxm-container prose" markdown="1">
 
 ## Overview
 
@@ -37,39 +45,15 @@ Capitol Conquest is a modern, Hexxagon-style strategy game built with Phaser 3. 
 
 ## Game Features
 
-<div class="features-grid">
-  <div class="feature-item">
-    <h4>🔷 Hex-Based Strategy</h4>
-    <p>Turn-based play on a hexagonal board with duplicate (range 1) and jump (range 2) moves. Adjacent enemy tiles auto-convert after a move.</p>
-  </div>
-  <div class="feature-item">
-    <h4>🎮 Game Modes</h4>
-    <p>Single-player vs AI, local two-player on one device, and real-time online multiplayer with matchmaking.</p>
-  </div>
-  <div class="feature-item">
-    <h4>🤖 AI Difficulties</h4>
-    <p>Normal (even start), Hard (AI advantage), and Expert (strong AI advantage) with distinct evaluation weights.</p>
-  </div>
-  <div class="feature-item">
-    <h4>� In-Game Chat</h4>
-    <p>Party-colored chat in online matches (red for Republicans, blue for Democrats) with clean, scrollable UI.</p>
-  </div>
-  <div class="feature-item">
-    <h4>📊 Global Stats</h4>
-    <p>Online games recorded to global statistics: wins/losses, durations, modes, and difficulty—leaderboard ready.</p>
-  </div>
-  <div class="feature-item">
-    <h4>� Mobile & Desktop</h4>
-    <p>Fully responsive UI, touch-friendly controls, dynamic viewport handling, and enhanced visuals on desktop.</p>
-  </div>
-  <div class="feature-item">
-    <h4>🎵 Audio System</h4>
-    <p>Background music with toggle and distinct SFX for duplicate, jump, and conversion actions.</p>
-  </div>
-  <div class="feature-item">
-    <h4>⚡ Smooth UX</h4>
-    <p>Keyboard navigation in menus, clear visual feedback, and smart defaults for quick start.</p>
-  </div>
+<div class="feature-grid" style="margin-top:2.25rem;">
+  <div class="feature-card"><h4>🔷 Hex Strategy</h4><p>Duplicate (range 1) or jump (range 2); adjacency flips opponent tiles.</p></div>
+  <div class="feature-card"><h4>🎮 Modes</h4><p>AI solo, local two-player & online real-time multiplayer.</p></div>
+  <div class="feature-card"><h4>🤖 AI Levels</h4><p>Normal, Hard, Expert—distinct evaluation weights & starting positions.</p></div>
+  <div class="feature-card"><h4>💬 In-Game Chat</h4><p>Party-colored real-time messaging with scrollback.</p></div>
+  <div class="feature-card"><h4>📊 Global Stats</h4><p>Match outcomes, duration, mode & difficulty persisted.</p></div>
+  <div class="feature-card"><h4>📱 Multi-Device</h4><p>Responsive canvas, touch gestures & adaptive viewport.</p></div>
+  <div class="feature-card"><h4>🎵 Audio System</h4><p>Music toggle + distinct SFX per action.</p></div>
+  <div class="feature-card"><h4>⚡ Smooth UX</h4><p>Keyboard nav, clear affordances, smart defaults.</p></div>
 </div>
 
 ---
@@ -174,11 +158,11 @@ Control more tiles than your opponent when all playable hexes are filled.
 
 ## Try the Game
 
-<div class="cta-section">
-  <a href="https://cc.maksimluzik.com/" target="_blank" rel="noopener noreferrer" class="headliner-cta-button">Play Capitol Conquest →</a>
-  <p class="cta-note">Play in your browser on desktop or mobile</p>
-  <p class="cta-note">Code: <a href="https://github.com/maksimluzik/capitol-conquest" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: underline;">GitHub repository</a></p>
-  
+<div class="cta-band">
+  <h3 style="margin-top:0;">Try Capitol Conquest</h3>
+  <p style="max-width:640px;margin:0 auto 1rem;">Experience AI-driven positional evaluation, hex grid transformations & real-time multiplayer session orchestration.</p>
+  <a href="https://cc.maksimluzik.com/" target="_blank" rel="noopener" class="btn accent">Launch Game</a>
+  <p style="margin-top:.75rem;font-size:.7rem;opacity:.65;">Repo: <a href="https://github.com/maksimluzik/capitol-conquest" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">GitHub</a></p>
 </div>
 
 ---
@@ -199,9 +183,15 @@ This project demonstrates MXM Consulting's strength in interactive web developme
 - Real-time networking, analytics, and production deployment
 - Mobile-first design with accessible, responsive UX
 
-<div class="contact-cta">
-  <h3>Need Interactive Web Development?</h3>
-  <p>Contact MXM Consulting to discuss how we can develop engaging, interactive web applications for your specific requirements.</p>
-  <a href="/#contact" class="contact-button">Get in Touch</a>
-  
+<section class="section gradient-dark" aria-labelledby="game-cta-heading">
+  <div class="mxm-container">
+    <h2 id="game-cta-heading">Need Interactive Web Development?</h2>
+    <p style="max-width:760px;">We architect performant real-time & interactive browser experiences—canvas rendering, multiplayer state sync, AI opponent logic & instrumentation.</p>
+    <div class="hero-cta" style="margin-top:1.3rem;">
+      <a href="/#contact" class="btn accent">Get in Touch</a>
+      <a href="/services/" class="btn outline">Explore Services</a>
+    </div>
+  </div>
+ </section>
+
 </div>

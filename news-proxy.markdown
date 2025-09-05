@@ -16,21 +16,25 @@ linkedin_description: "Headliner cuts through the noise to give you clean, conci
 canonical_url: https://mxm-consulting.fi/portfolio/news-proxy/
 ---
 
-# Headliner: The News Distilled
+<section class="page-hero minimal" aria-labelledby="headliner-heading">
+  <div class="mxm-container">
+    <h1 id="headliner-heading">Headliner – News Distilled</h1>
+    <p class="lead">URL-based article parsing + concise multilingual summarization with fact emphasis & structure discipline.</p>
+  </div>
+</section>
 
-## Professional News Article Summarizer
-
-<div style="text-align: center; margin: 30px 0;">
-  <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" style="display: inline-block; padding: 15px 30px; background-color: #000; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; transition: all 0.3s ease;">
-    Try Headliner →
-  </a>
-</div>
-
-<div class="headliner-hero">
-  <img src="/assets/img/headliner-screenshot.png" alt="Headliner ChatGPT Screenshot" class="headliner-screenshot" />
-</div>
+<section class="section" aria-labelledby="hero-media">
+  <div class="mxm-container media-figure">
+    <img src="/assets/img/headliner-screenshot.png" alt="Headliner screenshot" />
+    <div class="actions">
+      <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" rel="noopener" class="btn accent">Try Headliner</a>
+    </div>
+  </div>
+</section>
 
 ---
+
+<div class="mxm-container prose" markdown="1">
 
 ## What is Headliner?
 
@@ -40,41 +44,16 @@ This custom ChatGPT by MXM Consulting transforms how you consume news by providi
 
 ### Key Features
 
-<div class="features-grid">
-  <div class="feature-item">
-    <h4>📰 URL-Based Summarization</h4>
-    <p>Simply paste any news article URL and get instant, professional summaries</p>
-  </div>
-  
-  <div class="feature-item">
-    <h4>🌍 Multi-Language Support</h4>
-    <p>Automatically detects article language and provides summaries in the same language</p>
-  </div>
-  
-  <div class="feature-item">
-    <h4>🎯 Clean & Concise</h4>
-    <p>Maximum 3 paragraphs with bullet points focusing on essential information</p>
-  </div>
-  
-  <div class="feature-item">
-    <h4>🔍 Fact-Focused</h4>
-    <p>Emphasizes names, dates, places, and key data points with objective reporting</p>
-  </div>
-  
-  <div class="feature-item">
-    <h4>⚡ Instant Results</h4>
-    <p>Get comprehensive summaries in seconds, not minutes</p>
-  </div>
-  
-  <div class="feature-item">
-    <h4>🇫🇮 Finnish News Optimized</h4>
-    <p>Enhanced support for major Finnish news sources (HS, IL, IS)</p>
-  </div>
+<div class="feature-grid" style="margin-top:2.25rem;">
+  <div class="feature-card"><h4>📰 URL Summaries</h4><p>Paste a news article link—structured digest returned.</p></div>
+  <div class="feature-card"><h4>🌍 Language Aware</h4><p>Detects & preserves original language automatically.</p></div>
+  <div class="feature-card"><h4>🎯 Signal Density</h4><p>Max 3 paragraphs + bullets; no filler.</p></div>
+  <div class="feature-card"><h4>🔍 Fact Emphasis</h4><p>Names, dates, places & quantitative anchors surfaced.</p></div>
+  <div class="feature-card"><h4>⚡ Fast Cycle</h4><p>Summaries typically in under 10 seconds.</p></div>
+  <div class="feature-card"><h4>🇫🇮 Finnish Tuned</h4><p>Optimized handling for HS, IL & IS sources.</p></div>
 </div>
 
 ---
-
-<br />
 
 ## How Headliner Works
 
@@ -98,8 +77,6 @@ This custom ChatGPT by MXM Consulting transforms how you consume news by providi
 
 ---
 
-<br />
-
 ## Why Headliner?
 
 ### Professional-Grade Summarization
@@ -115,8 +92,6 @@ Headliner delivers:
 As AI development experts, MXM Consulting designed Headliner for **Busy Professionals** who need quick, accurate news summaries
 
 ---
-
-<br />
 
 ## Technical Specifications
 
@@ -143,25 +118,22 @@ As AI development experts, MXM Consulting designed Headliner for **Busy Professi
 
 ---
 
-<br />
-
 ## Get Started with Headliner
 
 Ready to streamline your news consumption? 
 
-<div class="cta-section">
-  <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" rel="noopener noreferrer" class="headliner-cta-button">
-    Try Headliner Now →
-  </a>
-  <p class="cta-note">Available on Free and Plus ChatGPT plans</p>
+<div class="cta-band">
+  <h3 style="margin-top:0;">Try Headliner Now</h3>
+  <p style="max-width:660px;margin:0 auto 1rem;">Instant summarization with language preservation, signal compression & structural clarity.</p>
+  <a href="https://chatgpt.com/g/g-6887a6ba63dc8191979ef2940882eee2-headliner-the-news-distilled" target="_blank" class="btn accent" rel="noopener">Open in ChatGPT</a>
+  <p style="margin-top:.6rem;font-size:.7rem;opacity:.65;">Works with free & plus plans</p>
 </div>
 
 **Need Support?** Email us at [headliner@mxm-consulting.fi](mailto:headliner@mxm-consulting.fi) for feedback or assistance.
 
 ---
 
-<br />
-
+## About MXM Consulting's AI Solutions
 ## About MXM Consulting's AI Solutions
 
 Headliner demonstrates MXM Consulting's expertise in developing practical AI tools for real-world applications. Our specializations include:
@@ -170,8 +142,15 @@ Headliner demonstrates MXM Consulting's expertise in developing practical AI too
 - **Content Processing Systems** with API integrations
 - **Automation and Intelligent Workflows** for Information Processing
 
-<div class="contact-cta">
-  <h3>Need Custom AI Solutions?</h3>
-  <p>Contact MXM Consulting to discuss how we can develop tailored AI tools for your specific requirements.</p>
-  <a href="/#contact" class="contact-button">Get in Touch</a>
+<section class="section gradient-dark" aria-labelledby="headliner-cta-heading">
+  <div class="mxm-container">
+    <h2 id="headliner-cta-heading">Need Custom AI Solutions?</h2>
+    <p style="max-width:760px;">We design production-focused AI augmentation layers—retrieval + summarization pipelines, structured extraction & decision assistance systems.</p>
+    <div class="hero-cta" style="margin-top:1.3rem;">
+      <a href="/#contact" class="btn accent">Get in Touch</a>
+      <a href="/services/" class="btn outline">View Services</a>
+    </div>
+  </div>
+ </section>
+
 </div>

@@ -15,111 +15,74 @@ linkedin_title: "About MXM Consulting - Expert IT Consultancy in Finland"
 linkedin_description: "Learn about MXM Consulting's 15+ years of experience in IT consulting, cloud architecture, and digital transformation. Expert team specializing in AWS, Google Cloud, and enterprise solutions."
 ---
 
-# About MXM Consulting
-
-## 🚀 Leading IT Consultancy with 15+ Years of Experience
-
-MXM Consulting Oy is a specialized IT consultancy firm based in Finland, dedicated to helping businesses navigate the complex landscape of modern technology solutions. Since our founding, we have been committed to delivering high-quality, scalable solutions that drive real business value.
-
-## 🎯 Our Mission
-
-We believe in combining deep technical expertise with a practical understanding of business needs to create solutions that work in the real world. Our mission is to help organizations achieve their digital transformation goals through innovative technology solutions and strategic consulting.
-
-## 💼 What We Do
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>🔍 Technical Due Diligence</h4>
-    <p>Comprehensive technical assessments to help you make informed decisions about technology investments</p>
+<section class="page-hero minimal" aria-labelledby="about-heading">
+  <div class="mxm-container">
+    <h1 id="about-heading">About MXM Consulting</h1>
+    <p class="lead">15+ years guiding technology strategy, architecture evolution, and delivery acceleration across finance, SaaS, media & data platforms.</p>
   </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>☁️ Cloud Architecture & Migration</h4>
-    <p>Design and implement robust, scalable cloud solutions with AWS and Google Cloud expertise</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>💻 Software Development</h4>
-    <p>Develop modern web and native applications using cutting-edge technologies and best practices</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>🔄 Digital Transformation</h4>
-    <p>Guide organizations through their digital transformation journey with strategic technology solutions</p>
-  </div>
-</div>
+</section>
 
-## 🎯 Our Approach
+<section class="section" aria-labelledby="mission-heading">
+  <div class="mxm-container">
+    <h2 id="mission-heading">Our Mission</h2>
+    <p>We pair deep architectural experience with pragmatic delivery to help organizations modernize, scale responsibly, and de‑risk strategic decisions. Value, clarity, and long-term maintainability drive every recommendation.</p>
+    <div class="feature-grid">
+      <div class="feature-card"><h3>🔍 Technical Due Diligence</h3><p>Evidence-based assessments of architecture, scalability, risk posture & delivery velocity.</p></div>
+      <div class="feature-card"><h3>☁️ Cloud Architecture</h3><p>Design & modernization for AWS, GCP & hybrid—cost, resilience and adaptability in balance.</p></div>
+      <div class="feature-card"><h3>💻 Software Engineering</h3><p>Full-stack & platform build support: APIs, distributed systems, data and application layers.</p></div>
+      <div class="feature-card"><h3>🔄 Digital Transformation</h3><p>Roadmaps & operating model alignment: from monolith decomposition to platform evolution.</p></div>
+    </div>
+  </div>
+</section>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>👥 Client-Focused</h4>
-    <p>We avoid any tasks that detract from providing maximum value to your project</p>
+<section class="section alt" aria-labelledby="approach-heading">
+  <div class="mxm-container">
+    <h2 id="approach-heading">Our Approach</h2>
+    <div class="feature-grid">
+      <div class="feature-card"><h3>👥 Client Focus</h3><p>Unbiased, outcome-oriented guidance—no vendor or tooling lock-in.</p></div>
+      <div class="feature-card"><h3>🎓 Experience Depth</h3><p>Hands-on with iterative waves of architectural & operational paradigms.</p></div>
+      <div class="feature-card"><h3>🤝 Collaborative</h3><p>Embed with product, platform & leadership stakeholders for momentum.</p></div>
+      <div class="feature-card"><h3>📈 Results Driven</h3><p>Architecture mapped to business levers: run cost, velocity, resilience & optionality.</p></div>
+    </div>
   </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>🎓 Experienced Team</h4>
-    <p>Over 15 years of expertise across diverse technological shifts</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>🤝 Collaborative</h4>
-    <p>We work closely with your internal teams and stakeholders</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #000;">
-    <h4>📈 Results-Driven</h4>
-    <p>Our energy is directed toward achieving your specific goals</p>
-  </div>
-</div>
+</section>
 
-## 🏭 Industries We Serve
+<section class="section" aria-labelledby="industries-heading">
+  <div class="mxm-container">
+    <h2 id="industries-heading">Industries We Serve</h2>
+    <p>Cross-domain insight informs balanced technical trade-offs and risk framing.</p>
+    <ul class="tag-pills" aria-label="Industry domains">
+      <li>💻 IT & Technology</li>
+      <li>🛒 E-commerce & Retail</li>
+      <li>🏦 Financial Services</li>
+      <li>📱 Advertising & Media</li>
+      <li>🔬 R&D / Innovation</li>
+    </ul>
+  </div>
+</section>
 
-With extensive experience across multiple sectors including:
+<section class="section alt" aria-labelledby="tech-heading">
+  <div class="mxm-container">
+    <h2 id="tech-heading">Technologies & Capabilities</h2>
+    <div class="feature-grid">
+      <div class="feature-card"><h4>☁️ Cloud Platforms</h4><p>AWS, Google Cloud, Azure, hybrid patterns, cost & resilience modeling.</p></div>
+      <div class="feature-card"><h4>🏗️ Architecture</h4><p>Event-driven, microservices, evolutionary monoliths, platform/API strategy.</p></div>
+      <div class="feature-card"><h4>👨‍💻 Engineering</h4><p>Web, mobile, service platforms, performance & refactoring initiatives.</p></div>
+      <div class="feature-card"><h4>📊 Data</h4><p>BigQuery, warehouses, data pipelines, domain modeling & observability.</p></div>
+      <div class="feature-card"><h4>🔧 DevOps</h4><p>Infra as Code, Kubernetes, CI/CD, reliability baselines & SLO thinking.</p></div>
+      <div class="feature-card"><h4>📋 Methods</h4><p>Agile, flow metrics, roadmap alignment, iterative governance.</p></div>
+    </div>
+  </div>
+</section>
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <span style="background: #e9ecef; padding: 8px 16px; border-radius: 20px; font-weight: 500;">💻 IT and Technology</span>
-  <span style="background: #e9ecef; padding: 8px 16px; border-radius: 20px; font-weight: 500;">🛒 E-commerce and Retail</span>
-  <span style="background: #e9ecef; padding: 8px 16px; border-radius: 20px; font-weight: 500;">🏦 Banking and Financial Services</span>
-  <span style="background: #e9ecef; padding: 8px 16px; border-radius: 20px; font-weight: 500;">📱 Advertising and Marketing</span>
-  <span style="background: #e9ecef; padding: 8px 16px; border-radius: 20px; font-weight: 500;">🔬 Research and Development</span>
-</div>
-
-## ⚙️ Technologies We Work With
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-    <h4>☁️ Cloud Platforms</h4>
-    <p>AWS, Google Cloud, Azure</p>
+<section class="section gradient-dark" aria-labelledby="about-cta-heading">
+  <div class="mxm-container cta-band" style="background:transparent;box-shadow:none;">
+    <h2 id="about-cta-heading">Ready to discuss your next initiative?</h2>
+    <p style="max-width:760px;margin:0 auto 1.5rem;">Complimentary first consultation—gain architectural clarity, risk framing, and actionable prioritization.</p>
+    <div class="hero-cta" style="justify-content:center;">
+      <a href="/#contact" class="btn accent">Start Conversation</a>
+      <a href="/services/" class="btn outline">Explore Services</a>
+    </div>
+    <p style="margin-top:1.25rem;font-size:.8rem;opacity:.7;">Business ID: 3243925-3 • Email: <a style="color:inherit;" href="mailto:maksim@mxm-consulting.fi">maksim@mxm-consulting.fi</a></p>
   </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-    <h4>🏗️ Architecture</h4>
-    <p>Microservices, Event-driven architecture, Kubernetes</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-    <h4>👨‍💻 Development</h4>
-    <p>Web applications, Android and iOS development</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-    <h4>📊 Data</h4>
-    <p>BigQuery, Cloud Storage, Data lakes and warehouses</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-    <h4>🔧 DevOps</h4>
-    <p>Infrastructure as Code, CI/CD, Observability</p>
-  </div>
-  <div style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-    <h4>📋 Methodologies</h4>
-    <p>Agile, Scrum, Kanban</p>
-  </div>
-</div>
-
-## 📞 Contact Us
-
-<div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 30px; border-radius: 10px; text-align: center; margin: 30px 0;">
-  <h3>Ready to discuss your next project?</h3>
-  <p style="margin: 15px 0;">We offer a complimentary first consultation to understand your needs and explore how we can help.</p>
-  
-  <div style="margin: 20px 0;">
-    <p><strong>📧 Email</strong>: <a href="mailto:maksim@mxm-consulting.fi">maksim@mxm-consulting.fi</a></p>
-    <p><strong>🏢 Business ID</strong>: 3243925-3</p>
-  </div>
-  
-  <a href="/#contact" style="display: inline-block; padding: 12px 25px; background-color: #000; color: white; text-decoration: none; border-radius: 6px; margin-top: 10px;">
-    Get in Touch
-  </a>
-</div>
+</section>
