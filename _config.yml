@@ -22,7 +22,7 @@ title: "MXM Consulting - Expert IT Solutions & Technical Due Diligence"
 logo: mxm-consulting-logo-black.jpg
 email: maksim@mxm-consulting.fi
 description: >- # this means to ignore newlines until "baseurl:"
-  MXM Consulting - Leading IT consultancy specializing in cloud architecture, software development, technical due diligence, and digital transformation. 15+ years experience in AWS, Google Cloud, microservices, and agile methodologies. Expert IT solutions for enterprise clients.
+  MXM Consulting - Leading IT consultancy specializing in cloud architecture, software development, technical due diligence, and digital transformation. 15+ years experience in AWS, Google Cloud, microservices, and agile methodologies. Expert IT solutions for enterprise clients. Business ID - 3243925-3
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mxm-consulting.fi" # the base hostname & protocol for your site, e.g. http://example.com
 
