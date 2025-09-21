@@ -80,7 +80,7 @@ canonical_url: https://mxm-consulting.fi
   <div class="mxm-container">
     <h2 id="differentiators-heading">What Sets Us Apart</h2>
   <div class="mxm-grid cols-3 tight centered-rows">
-      <div class="mxm-card"><h3>15+ Years Depth</h3><p>Broad transformations & platform builds spanning finance, marketplaces, media, analytics & SaaS.</p></div>
+      <div class="mxm-card"><h3>15+ Years Experience</h3><p>Broad transformations & platform builds spanning finance, marketplaces, media, analytics & SaaS.</p></div>
       <div class="mxm-card"><h3>Client-First Focus</h3><p>No vendor bias. Independent, pragmatic recommendations aligned to measurable outcomes.</p></div>
       <div class="mxm-card"><h3>Systems Thinking</h3><p>Architecture decisions mapped to business levers: time-to-market, resilience, run costs & adaptability.</p></div>
     </div>
