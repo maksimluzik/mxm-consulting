@@ -37,7 +37,7 @@ canonical_url: https://mxm-consulting.fi
 
 <section class="section alt" aria-labelledby="clients-heading">
   <div class="mxm-container">
-    <h2 id="clients-heading" class="mb-3">Trusted by forward-thinking teams</h2>
+    <h2 id="clients-heading" class="mb-3">Trusted by forward-thinking companies</h2>
     <div class="logo-cloud" role="list" aria-label="Client logos">
       <img src="assets/img/clients/nordea.png" alt="Nordea" role="listitem" />
       <img src="assets/img/clients/vend.png" alt="Vend" role="listitem" />
