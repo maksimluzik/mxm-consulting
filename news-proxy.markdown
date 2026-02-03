@@ -151,8 +151,8 @@ Headliner reflects delivery patterns we apply across production AI augmentation 
 
 <section class="section gradient-dark" aria-labelledby="headliner-cta-heading">
   <div class="mxm-container">
-  <h2 id="headliner-cta-heading">Need Applied AI Summarization?</h2>
-  <p style="max-width:760px;">Retrieval + extraction + compression stacks for news, research & operational intelligence—secure & latency aware.</p>
+  <h2 id="headliner-cta-heading">Need Applied AI Solutions?</h2>
+  <p style="max-width:760px;">Smart prompting, fine-tuning, and compression stacks for business, research, and operational intelligence — secure and latency-aware.</p>
     <div class="hero-cta" style="margin-top:1.3rem;">
       <a href="/#contact" class="btn accent">Get in Touch</a>
       <a href="/services/" class="btn outline">View Services</a>
