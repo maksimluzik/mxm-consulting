@@ -35,6 +35,13 @@ canonical_url: https://mxm-consulting.fi/portfolio/
         </div>
       </div>
       <div class="mxm-card">
+        <h3>💰 Co-Split</h3>
+        <p>Transparent cost-sharing for split subscriptions—granular membership, normalized billing & Firebase monorepo architecture.</p>
+        <div style="margin-top:1rem;">
+          <a class="btn dark" href="/portfolio/co-split/">View Co-Split →</a>
+        </div>
+      </div>
+      <div class="mxm-card">
         <h3>🎮 Capitol Conquest</h3>
         <p>Hex strategy game with AI heuristics, multiplayer sockets & performance‑tuned canvas rendering.</p>
         <div style="margin-top:1rem;">
@@ -125,6 +132,7 @@ canonical_url: https://mxm-consulting.fi/portfolio/
     <p>Each initiative reflects applied architecture, operational pragmatism & measurable delivery leverage.</p>
     <div class="hero-cta" style="margin-top:1.2rem;">
   <a href="/portfolio/knowu/" class="btn accent">KnowU</a>
+  <a href="/portfolio/co-split/" class="btn accent">Co-Split</a>
   <a href="/portfolio/game/" class="btn accent">Capitol Conquest</a>
   <a href="/portfolio/news-proxy/" class="btn accent">Headliner</a>
     </div>
