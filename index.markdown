@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "MXM Consulting - Expert IT Solutions & Cloud Architecture"
-description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and digital transformation. 15+ years experience with AWS, Google Cloud, and enterprise solutions."
-keywords: "IT consulting Finland, cloud architecture, AWS consulting, Google Cloud, technical due diligence, software development, digital transformation, microservices"
+title: "MXM Consulting - Expert Cloud, Scale & AI Systems Consulting"
+description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and production GenAI/LLM engineering. 15+ years experience."
+keywords: "IT consulting Finland, cloud architecture, AI systems engineering, GenAI consulting, LLM systems, technical due diligence, software development, microservices"
 permalink: /
 order: 1
 slideshow: true
 # Open Graph / Social Media
 og_image: /assets/img/mxm-consulting-logo-black.jpg
 og_type: website
-og_title: "MXM Consulting - Expert IT Solutions & Cloud Architecture"
-og_description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and digital transformation. 15+ years experience with AWS, Google Cloud, and enterprise solutions."
+og_title: "MXM Consulting - Expert Cloud, Scale & AI Systems Consulting"
+og_description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and production GenAI/LLM engineering. 15+ years experience."
 # LinkedIn specific
-linkedin_title: "MXM Consulting - Expert IT Solutions & Cloud Architecture"
-linkedin_description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and digital transformation. 15+ years experience with AWS, Google Cloud, and enterprise solutions."
+linkedin_title: "MXM Consulting - Expert Cloud, Scale & AI Systems Consulting"
+linkedin_description: "Leading IT consultancy in Finland specializing in cloud architecture, technical due diligence, and production GenAI/LLM engineering. 15+ years experience."
 canonical_url: https://mxm-consulting.fi
 ---
 
@@ -25,8 +25,8 @@ canonical_url: https://mxm-consulting.fi
   </picture>
   <div class="mxm-container hero__content">
     <div class="hero-tag" aria-hidden="true">MXM CONSULTING</div>
-  <h1>Expert <span class="gradient">Cloud & Architecture</span> Consulting</h1>
-  <p class="hero-lead">Strategic technical due diligence, scalable software architecture, and pragmatic cloud solutions. 15+ years delivering impact across finance, SaaS, media & enterprise platforms.</p>
+  <h1>Architecting <span class="gradient">Cloud, Scale & AI</span> Systems</h1>
+  <p class="hero-lead">Strategic cloud migrations, resilient software architecture, and production-grade AI integration. 15+ years of engineering excellence de-risking technology decisions for enterprise, finance, and SaaS platforms.</p>
   <div class="hero-cta">
       <a href="#contact" class="btn accent">Start a Conversation</a>
       <a href="/about/" class="btn outline">About Us</a>
@@ -60,17 +60,17 @@ canonical_url: https://mxm-consulting.fi
       <div class="mxm-card reveal-up" data-delay="1">
         <div class="icon" aria-hidden="true">⚙️</div>
         <h3>Architecture & Cloud</h3>
-        <p>Designing resilient, scalable distributed systems on AWS, GCP & hybrid platforms with cost and reliability in balance.</p>
+        <p>Designing resilient, scalable distributed systems on AWS & Google Cloud, including high-throughput LLM pipelines and semantic search infrastructure.</p>
       </div>
       <div class="mxm-card reveal-up" data-delay="2">
         <div class="icon" aria-hidden="true">🧭</div>
         <h3>Technical Due Diligence</h3>
-        <p>Clear, evidence-based assessments for investors & leadership: architecture, velocity, risk posture & strategic options.</p>
+        <p>Clear, evidence-based assessments for investors & leadership: architecture velocity, AI/ML risk posture, intellectual property, and strategic scaling options.</p>
       </div>
       <div class="mxm-card reveal-up" data-delay="3">
         <div class="icon" aria-hidden="true">🚀</div>
-        <h3>Product Acceleration</h3>
-        <p>Unblocking delivery teams, aligning roadmaps to architecture reality, and accelerating iteration cadence.</p>
+        <h3>Applied AI & Acceleration</h3>
+        <p>Operationalizing LLMs, agentic workflows, and semantic caching, while aligning roadmaps and unblocking product delivery teams.</p>
       </div>
     </div>
   </div>
@@ -103,42 +103,42 @@ canonical_url: https://mxm-consulting.fi
             <div class="slide-content">
               <img src="assets/img/cloud.png" alt="Cloud Services" />
               <h3>Cloud Services</h3>
-              <p>Expertise in AWS and Google Cloud</p>
+              <p>AWS & Google Cloud scale, IaC, Kubernetes, and serverless compute</p>
             </div>
           </div>
           <div class="slide-item" tabindex="0" role="group" aria-label="Software Architecture">
             <div class="slide-content">
               <img src="assets/img/architecture.png" alt="Software Architecture" />
               <h3>Software Architecture</h3>
-              <p>Designing robust and scalable systems</p>
+              <p>Event-driven microservices, clean API lifecycles, and scalable data models</p>
             </div>
           </div>
           <div class="slide-item" tabindex="0" role="group" aria-label="App Development">
             <div class="slide-content">
               <img src="assets/img/app.png" alt="App Development" />
               <h3>App Development</h3>
-              <p>Creating web and native applications</p>
+              <p>High-performance web applications, native mobile apps, and rich interactive frontends</p>
             </div>
           </div>
-          <div class="slide-item" tabindex="0" role="group" aria-label="Artificial Intelligence">
+          <div class="slide-item" tabindex="0" role="group" aria-label="AI & Agentic Systems">
             <div class="slide-content">
-              <img src="assets/img/ai.png" alt="Artificial Intelligence" />
-              <h3>Artificial Intelligence</h3>
-              <p>Training and fine-tuning AI models</p>
+              <img src="assets/img/ai.png" alt="AI & Agentic Systems" />
+              <h3>AI & Agentic Systems</h3>
+              <p>Designing custom RAG architectures, multi-agent workflows, and LLMOps evaluation loops</p>
             </div>
           </div>
-          <div class="slide-item" tabindex="0" role="group" aria-label="Automation">
+          <div class="slide-item" tabindex="0" role="group" aria-label="Automation & Platform">
             <div class="slide-content">
-              <img src="assets/img/automation.png" alt="Automation" />
-              <h3>Automation</h3>
-              <p>Streamlining processes for efficiency</p>
+              <img src="assets/img/automation.png" alt="Automation & Platform" />
+              <h3>Automation & Platform</h3>
+              <p>CI/CD golden paths, developer experience, and automated policy-as-code</p>
             </div>
           </div>
-          <div class="slide-item" tabindex="0" role="group" aria-label="IT Management">
+          <div class="slide-item" tabindex="0" role="group" aria-label="Technology Leadership">
             <div class="slide-content">
-              <img src="assets/img/management.png" alt="IT Management" />
-              <h3>IT Management</h3>
-              <p>Management and team collaboration</p>
+              <img src="assets/img/management.png" alt="Technology Leadership" />
+              <h3>Technology Leadership</h3>
+              <p>Fractional CTO advisory, technical due diligence, and team capability uplift</p>
             </div>
           </div>
         </div>
@@ -161,14 +161,14 @@ canonical_url: https://mxm-consulting.fi
     Some of the principles and technologies we have experience with, but are not limited to:
     </div>
     <ul>
-      <li>Event-driven architecture (EDA) - Kafka</li>
-      <li>Monoliths and microservice architecture - Kubernetes, Fargate, Load Balancers</li>
-      <li>Data lakes and data warehouses - BiqQuery, Cloud Storage</li>
-      <li>Cloud infrastructure and Infrastructure as Code (IaS) - Google Cloud, AWS and Azure</li>
-      <li>Web, Android and iOS applications</li>
-      <li>Observability and SLA - Prometheus & Grafana</li>
-      <li>Agile methodologies - Kanban, Scrum, Feature flagging</li>
-      <li>Domain management - Route 53</li>
+      <li>GenAI & LLM applications - RAG, LangChain, LangGraph, LlamaIndex</li>
+      <li>Vector databases & semantic caching - pgvector, Qdrant, Pinecone, Redis</li>
+      <li>Event-driven architecture (EDA) - Kafka, Google Cloud Pub/Sub</li>
+      <li>Monoliths & microservices - Kubernetes, ECS/Fargate, API Gateways</li>
+      <li>Data infrastructure - BigQuery, Cloud Storage, PostgreSQL</li>
+      <li>Infrastructure as Code (IaC) - Terraform, AWS CDK, Pulumi</li>
+      <li>Observability & telemetry - OpenTelemetry, Prometheus, Grafana</li>
+      <li>Structured data extraction & validation - Pydantic, Instructor</li>
     </ul>
   </div>
 </section>

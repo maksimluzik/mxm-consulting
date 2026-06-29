@@ -1,25 +1,25 @@
 ---
 layout: default
-title: "Portfolio - MXM Consulting Projects & Demonstrations"
-description: "Explore MXM Consulting's portfolio of innovative projects including KnowU personality assessment platform, Capitol Conquest strategy game, and Headliner AI news tool."
-keywords: "MXM Consulting portfolio, web development projects, AI applications, game development, mobile apps, KnowU, Headliner, Capitol Conquest"
+title: "Portfolio - Cloud, Scale & Applied GenAI Projects | MXM Consulting"
+description: "Explore MXM Consulting's portfolio of production architectures, including Custom GPT news tools, real-time gaming engines, and personality analytics."
+keywords: "MXM Consulting portfolio, software architecture portfolio, AI applications, LLM engineering, GenAI projects, cloud-native apps, KnowU, Headliner"
 permalink: /portfolio/
 order: 4
 # Open Graph / Social Media
 og_image: /assets/img/mxm-consulting-logo-black.jpg
 og_type: website
-og_title: "Portfolio - MXM Consulting Projects & Demonstrations"
-og_description: "Explore MXM Consulting's portfolio of innovative projects including KnowU personality assessment platform, Capitol Conquest strategy game, and Headliner AI news tool."
+og_title: "Portfolio - Cloud, Scale & Applied GenAI Projects | MXM Consulting"
+og_description: "Explore MXM Consulting's portfolio of production architectures, including Custom GPT news tools, real-time gaming engines, and personality analytics."
 # LinkedIn specific
-linkedin_title: "Portfolio - MXM Consulting Projects & Demonstrations"
-linkedin_description: "Explore MXM Consulting's portfolio of innovative projects including KnowU personality assessment platform, Capitol Conquest strategy game, and Headliner AI news tool."
+linkedin_title: "Portfolio - Cloud, Scale & Applied GenAI Projects | MXM Consulting"
+linkedin_description: "Explore MXM Consulting's portfolio of production architectures, including Custom GPT news tools, real-time gaming engines, and personality analytics."
 canonical_url: https://mxm-consulting.fi/portfolio/
 ---
 
 <section class="page-hero minimal" aria-labelledby="portfolio-heading">
   <div class="mxm-container">
     <h1 id="portfolio-heading">Portfolio</h1>
-    <p class="lead">Selected product, AI & interactive platform work highlighting architecture depth, delivery rigor & applied innovation.</p>
+    <p class="lead">Selected production systems, applied GenAI pipelines, and cloud architectures highlighting engineering rigor and delivery velocity.</p>
   </div>
 </section>
 
@@ -73,13 +73,13 @@ canonical_url: https://mxm-consulting.fi/portfolio/
         </ul>
       </div>
       <div class="feature-card">
-        <h3>🤖 AI & Machine Learning</h3>
-        <p>Practical augmentation & intelligent automation layers.</p>
+        <h3>🤖 Applied AI & LLMOps</h3>
+        <p>Production-grade GenAI integration and cognitive architectures.</p>
         <ul>
-          <li>Custom ChatGPT / LLM integration patterns</li>
-          <li>Structured content & data extraction workflows</li>
-          <li>Heuristic & rule-based decision engines</li>
-          <li>Summarization & NLP enrichment pipelines</li>
+          <li>Multi-agent workflows & LangGraph orchestration</li>
+          <li>Advanced RAG, vector search, & semantic caching</li>
+          <li>Structured JSON extraction & schema evaluations</li>
+          <li>Latency optimization & LLM rate-limiting pipelines</li>
         </ul>
       </div>
       <div class="feature-card">

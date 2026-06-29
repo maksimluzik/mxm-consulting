@@ -1,18 +1,18 @@
 ---
 layout: default
-title: "IT Consulting Services - Cloud Architecture, Technical Due Diligence & More"
-description: "Comprehensive IT consulting services including cloud architecture, AWS & Google Cloud migration, technical due diligence, software development, and digital transformation solutions."
-keywords: "IT consulting services, cloud architecture, AWS consulting, Google Cloud migration, technical due diligence, software development, digital transformation, microservices"
+title: "IT Consulting Services - Cloud, Scale & Applied GenAI Architecture"
+description: "Comprehensive IT consulting including cloud architecture, technical due diligence, software development, and production GenAI/LLMOps implementation."
+keywords: "IT consulting services, cloud architecture, AI systems engineering, GenAI consulting, technical due diligence, software development, microservices, LLMOps"
 permalink: /services/
 order: 3
 # Open Graph / Social Media
 og_image: /assets/img/mxm-consulting-logo-black.jpg
 og_type: website
-og_title: "IT Consulting Services - Cloud Architecture, Technical Due Diligence & More"
-og_description: "Comprehensive IT consulting services including cloud architecture, AWS & Google Cloud migration, technical due diligence, software development, and digital transformation solutions."
+og_title: "IT Consulting Services - Cloud, Scale & Applied GenAI Architecture"
+og_description: "Comprehensive IT consulting including cloud architecture, technical due diligence, software development, and production GenAI/LLMOps implementation."
 # LinkedIn specific
-linkedin_title: "IT Consulting Services - Cloud Architecture, Technical Due Diligence & More"
-linkedin_description: "Comprehensive IT consulting services including cloud architecture, AWS & Google Cloud migration, technical due diligence, software development, and digital transformation solutions."
+linkedin_title: "IT Consulting Services - Cloud, Scale & Applied GenAI Architecture"
+linkedin_description: "Comprehensive IT consulting including cloud architecture, technical due diligence, software development, and production GenAI/LLMOps implementation."
 ---
 
 <section class="page-hero minimal" aria-labelledby="services-heading">
@@ -26,12 +26,12 @@ linkedin_description: "Comprehensive IT consulting services including cloud arch
   <div class="mxm-container">
     <h2 id="core-services-heading">Core Service Pillars</h2>
   <div class="mxm-grid cols-3 tight services-grid centered-rows mt-3">
-  <div class="mxm-card"><h3>Cloud Services</h3><p>Modernize & optimize workloads across AWS / GCP / hybrid with reliability & cost balance.</p><img src="/assets/img/cloud.png" alt="Cloud Services" /></div>
-  <div class="mxm-card"><h3>Software Architecture</h3><p>Evolutionary architecture, domain alignment, refactoring roadmaps, scalability modeling.</p><img src="/assets/img/architecture.png" alt="Software Architecture" /></div>
-  <div class="mxm-card"><h3>Application Engineering</h3><p>Full‑stack & mobile delivery acceleration, quality uplift & performance remediation.</p><img src="/assets/img/app.png" alt="Application Development" /></div>
-  <div class="mxm-card"><h3>AI & Intelligence</h3><p>Applied AI / LLM integration, workflow augmentation & data leverage strategies.</p><img src="/assets/img/ai.png" alt="AI" /></div>
-  <div class="mxm-card"><h3>Automation & Platform</h3><p>CI/CD, infra as code, policy-as-code, golden paths & developer experience uplift.</p><img src="/assets/img/automation.png" alt="Automation" /></div>
-  <div class="mxm-card"><h3>Technology Leadership</h3><p>Fractional architecture leadership, due diligence, roadmap alignment & governance.</p><img src="/assets/img/management.png" alt="Management" /></div>
+  <div class="mxm-card"><h3>Cloud Services</h3><p>Modernize & scale workloads across AWS / GCP with robust IaC, high reliability, and cost-efficiency.</p><img src="/assets/img/cloud.png" alt="Cloud Services" /></div>
+  <div class="mxm-card"><h3>Software Architecture</h3><p>Event-driven microservices, Domain-Driven Design, API lifecycle management, and database scaling.</p><img src="/assets/img/architecture.png" alt="Software Architecture" /></div>
+  <div class="mxm-card"><h3>Application Engineering</h3><p>Full‑stack delivery, real-time socket orchestration, performance tuning, and cross-platform mobile apps.</p><img src="/assets/img/app.png" alt="Application Development" /></div>
+  <div class="mxm-card"><h3>Applied GenAI & LLMOps</h3><p>Production LLM integration, multi-agent workflows, vector search, semantic caching, and evaluation loops.</p><img src="/assets/img/ai.png" alt="AI" /></div>
+  <div class="mxm-card"><h3>Automation & Platform</h3><p>CI/CD pipelines, container orchestration (Kubernetes), automated guardrails, and developer golden paths.</p><img src="/assets/img/automation.png" alt="Automation" /></div>
+  <div class="mxm-card"><h3>Technology Advisory</h3><p>Technical due diligence, fractional CTO advisory, architectural risk assessments, and roadmapping.</p><img src="/assets/img/management.png" alt="Management" /></div>
     </div>
   </div>
 </section>
@@ -74,14 +74,14 @@ linkedin_description: "Comprehensive IT consulting services including cloud arch
         </ul>
       </div>
       <div class="feature-card">
-        <h3>🔄 Digital Transformation</h3>
-        <p>Pragmatic change frameworks aligning tech & business velocity.</p>
+        <h3>🤖 Applied GenAI & LLMOps</h3>
+        <p>Design, evaluate, and scale secure intelligent systems with production reliability.</p>
         <ul style="margin:.85rem 0 0;padding-left:1.1rem;">
-          <li>Operating & governance models</li>
-          <li>Process automation & flow metrics</li>
-          <li>Data & analytics leverage pathways</li>
-          <li>AI / LLM integration patterns</li>
-          <li>Change enablement & adoption support</li>
+          <li>Retrieval-Augmented Generation (RAG) & Semantic Search</li>
+          <li>Multi-agent orchestration & custom tool integration</li>
+          <li>LLMOps: evaluations, guardrails, and cost management</li>
+          <li>Structured output generation & JSON schema validation</li>
+          <li>Fine-tuning & domain-specific data pipelines</li>
         </ul>
       </div>
     </div>
@@ -93,30 +93,30 @@ linkedin_description: "Comprehensive IT consulting services including cloud arch
     <h2 id="specialized-heading">Specialized Expertise</h2>
     <div class="feature-grid" style="margin-top:2rem;">
       <div class="feature-card">
-        <h3>⚙️ DevOps & Platform</h3>
+        <h3>⚙️ DevOps & LLMOps</h3>
         <ul style="margin:.55rem 0 0;padding-left:1.1rem;">
-          <li>Kubernetes & orchestration design</li>
-          <li>CI/CD pipelines & golden paths</li>
-          <li>Observability & SLO baselines</li>
-          <li>Infra automation & policy-as-code</li>
+          <li>Kubernetes, ECS/Fargate & serverless orchestration</li>
+          <li>CI/CD golden paths & Infrastructure as Code (Terraform)</li>
+          <li>OpenTelemetry, Prometheus & Grafana observability</li>
+          <li>LLM prompt versioning, caching, & latency optimization</li>
         </ul>
       </div>
       <div class="feature-card">
-        <h3>📊 Data Solutions</h3>
+        <h3>📊 Data & Semantic Stacks</h3>
         <ul style="margin:.55rem 0 0;padding-left:1.1rem;">
-          <li>Warehouse & lake architectures</li>
-          <li>BigQuery optimization & governance</li>
-          <li>Kafka & event stream modeling</li>
-          <li>ETL / ELT pipeline design</li>
+          <li>Vector databases (pgvector, Qdrant, Pinecone)</li>
+          <li>BigQuery & Snowflake warehouse architectures</li>
+          <li>Kafka, Pub/Sub & event-stream data pipelines</li>
+          <li>Semantic cache layers & vector indexing schedules</li>
         </ul>
       </div>
       <div class="feature-card">
-        <h3>🔗 Enterprise Integration</h3>
+        <h3>🔗 Enterprise & AI Integration</h3>
         <ul style="margin:.55rem 0 0;padding-left:1.1rem;">
-          <li>API gateway & lifecycle patterns</li>
-          <li>Event-driven contract strategies</li>
-          <li>System interoperability mapping</li>
-          <li>Service mesh & ESB rationalization</li>
+          <li>Secure API gateway architecture & rate-limiting</li>
+          <li>Event-driven messaging and schema registries</li>
+          <li>System interoperability & legacy modernization</li>
+          <li>LLM provider failovers & secure proxy wrappers</li>
         </ul>
       </div>
     </div>

@@ -22,6 +22,6 @@ html:not(.no-js) .hero__bg { animation:heroSlowZoom 28s linear infinite alternat
 @keyframes heroSlowZoom { from{transform:scale(1.05);} to{transform:scale(1.18);} }
 .hero__content { position:relative; z-index:1; width:100%; }
 .hero-tag { display:inline-flex; align-items:center; padding:.45rem .85rem; background:rgba(255,255,255,.08); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.2); color:#fff; font-size:.75rem; letter-spacing:.15em; font-weight:600; text-transform:uppercase; border-radius:100px; margin-bottom:1.5rem; }
-.hero h1 span.gradient { background:var(--mxm-color-gradient); -webkit-background-clip:text; color:transparent; }
+.hero h1 span.gradient { background: var(--mxm-color-gradient-vibrant); -webkit-background-clip:text; -webkit-text-fill-color:transparent; color:transparent; }
 .hero-lead { max-width:680px; font-size:clamp(1.05rem,1.6vw,1.35rem); color:#e2e8f0; margin-top:1.25rem; }
 .hero-cta { margin-top:2.25rem; display:flex; flex-wrap:wrap; gap:1rem; }

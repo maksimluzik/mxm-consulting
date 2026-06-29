@@ -1,24 +1,24 @@
 ---
 layout: default
-title: "About MXM Consulting - Expert IT Consultancy in Finland"
-description: "Learn about MXM Consulting's 15+ years of experience in IT consulting, cloud architecture, and digital transformation. Expert team specializing in AWS, Google Cloud, and enterprise solutions."
-keywords: "about MXM Consulting, IT consulting company Finland, cloud architecture experts, software development team, technical due diligence specialists"
+title: "About MXM Consulting - Cloud, Scale & AI Advisory in Finland"
+description: "Learn about MXM Consulting's 15+ years of experience in cloud architecture, technical due diligence, and production GenAI/LLM engineering."
+keywords: "about MXM Consulting, IT consulting Finland, cloud architecture experts, GenAI systems engineering, technical due diligence specialists"
 permalink: /about/
 order: 2
 # Open Graph / Social Media
 og_image: /assets/img/mxm-consulting-logo-black.jpg
 og_type: website
-og_title: "About MXM Consulting - Expert IT Consultancy in Finland"
-og_description: "Learn about MXM Consulting's 15+ years of experience in IT consulting, cloud architecture, and digital transformation. Expert team specializing in AWS, Google Cloud, and enterprise solutions."
+og_title: "About MXM Consulting - Cloud, Scale & AI Advisory in Finland"
+og_description: "Learn about MXM Consulting's 15+ years of experience in cloud architecture, technical due diligence, and production GenAI/LLM engineering."
 # LinkedIn specific
-linkedin_title: "About MXM Consulting - Expert IT Consultancy in Finland"
-linkedin_description: "Learn about MXM Consulting's 15+ years of experience in IT consulting, cloud architecture, and digital transformation. Expert team specializing in AWS, Google Cloud, and enterprise solutions."
+linkedin_title: "About MXM Consulting - Cloud, Scale & AI Advisory in Finland"
+linkedin_description: "Learn about MXM Consulting's 15+ years of experience in cloud architecture, technical due diligence, and production GenAI/LLM engineering."
 ---
 
 <section class="page-hero minimal" aria-labelledby="about-heading">
   <div class="mxm-container">
     <h1 id="about-heading">About MXM Consulting</h1>
-    <p class="lead">15+ years guiding technology strategy, architecture evolution, and delivery acceleration across finance, SaaS, media & data platforms.</p>
+    <p class="lead">15+ years guiding cloud strategy, evolutionary software architecture, and production GenAI implementation across finance, SaaS, and enterprise platforms.</p>
   </div>
 </section>
 
@@ -27,10 +27,10 @@ linkedin_description: "Learn about MXM Consulting's 15+ years of experience in I
     <h2 id="mission-heading">Our Mission</h2>
     <p>We pair deep architectural experience with pragmatic delivery to help organizations modernize, scale responsibly, and de‑risk strategic decisions. Value, clarity, and long-term maintainability drive every recommendation.</p>
     <div class="feature-grid">
-      <div class="feature-card"><h3>🔍 Technical Due Diligence</h3><p>Evidence-based assessments of architecture, scalability, risk posture & delivery velocity.</p></div>
-      <div class="feature-card"><h3>☁️ Cloud Architecture</h3><p>Design & modernization for AWS, GCP & hybrid—cost, resilience and adaptability in balance.</p></div>
-      <div class="feature-card"><h3>💻 Software Engineering</h3><p>Full-stack & platform build support: APIs, distributed systems, data and application layers.</p></div>
-      <div class="feature-card"><h3>🔄 Digital Transformation</h3><p>Roadmaps & operating model alignment: from monolith decomposition to platform evolution.</p></div>
+      <div class="feature-card"><h3>🔍 Technical Due Diligence</h3><p>Evidence-based assessments of architecture quality, scaling velocity, and AI/LLM risk postures.</p></div>
+      <div class="feature-card"><h3>☁️ Cloud & Scale Systems</h3><p>Modernization for AWS & GCP—balancing high-throughput workloads, cost, and reliability.</p></div>
+      <div class="feature-card"><h3>🤖 Applied GenAI & LLMOps</h3><p>Integrating production-grade LLM applications, multi-agent workflows, and evaluation pipelines.</p></div>
+      <div class="feature-card"><h3>💻 Software Engineering</h3><p>Full-stack and platform build support: microservices, event streams, and low-latency databases.</p></div>
     </div>
   </div>
 </section>
@@ -65,12 +65,12 @@ linkedin_description: "Learn about MXM Consulting's 15+ years of experience in I
   <div class="mxm-container">
     <h2 id="tech-heading">Technologies & Capabilities</h2>
     <div class="feature-grid">
-      <div class="feature-card"><h4>☁️ Cloud Platforms</h4><p>AWS, Google Cloud, Azure, hybrid patterns, cost & resilience modeling.</p></div>
-      <div class="feature-card"><h4>🏗️ Architecture</h4><p>Event-driven, microservices, evolutionary monoliths, platform/API strategy.</p></div>
-      <div class="feature-card"><h4>👨‍💻 Engineering</h4><p>Web, mobile, service platforms, performance & refactoring initiatives.</p></div>
-      <div class="feature-card"><h4>📊 Data</h4><p>BigQuery, warehouses, data pipelines, domain modeling & observability.</p></div>
-      <div class="feature-card"><h4>🔧 DevOps</h4><p>Infra as Code, Kubernetes, CI/CD, reliability baselines & SLO thinking.</p></div>
-      <div class="feature-card"><h4>📋 Methods</h4><p>Agile, flow metrics, roadmap alignment, iterative governance.</p></div>
+      <div class="feature-card"><h4>☁️ Cloud & Infrastructure</h4><p>AWS, Google Cloud, Kubernetes, Terraform, serverless architecture, and cost modeling.</p></div>
+      <div class="feature-card"><h4>🏗️ Software Architecture</h4><p>Event-driven microservices, API lifecycle design, Domain-Driven Design, and scalability audits.</p></div>
+      <div class="feature-card"><h4>🤖 GenAI & LLMOps</h4><p>Agentic workflows (LangGraph), RAG, vector search (pgvector/Qdrant), and evaluation loops.</p></div>
+      <div class="feature-card"><h4>📊 Data & Pipelines</h4><p>Kafka event streaming, BigQuery, PostgreSQL, semantic caches, and domain data modeling.</p></div>
+      <div class="feature-card"><h4>👨‍💻 Engineering & Telemetry</h4><p>Full-stack systems, performance tuning, OpenTelemetry observability, and CI/CD golden paths.</p></div>
+      <div class="feature-card"><h4>🧭 Advisory & Diligence</h4><p>Technical due diligence, roadmap alignment, fractional CTO advisory, and team capability uplift.</p></div>
     </div>
   </div>
 </section>

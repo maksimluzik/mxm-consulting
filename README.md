@@ -185,7 +185,7 @@ mxm-consulting/
    ```
 
 4. **View the site:**
-   Open your browser to `http://localhost:4000`
+   Open your browser to `http://localhost:7001`
 
 ### Available Make Commands
 
