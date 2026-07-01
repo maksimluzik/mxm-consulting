@@ -51,12 +51,12 @@ This custom ChatGPT by MXM Consulting transforms how you consume news by providi
 ### Key Features
 
 <div class="feature-grid" style="margin-top:2.25rem;">
-  <div class="feature-card"><h4>📰 URL Summaries</h4><p>Paste a news article link—structured digest returned.</p></div>
-  <div class="feature-card"><h4>🌍 Language Aware</h4><p>Detects & preserves original language automatically.</p></div>
-  <div class="feature-card"><h4>🎯 Signal Density</h4><p>Max 3 paragraphs + bullets; no filler.</p></div>
-  <div class="feature-card"><h4>🔍 Fact Emphasis</h4><p>Names, dates, places & quantitative anchors surfaced.</p></div>
-  <div class="feature-card"><h4>⚡ Fast Cycle</h4><p>Summaries typically in under 10 seconds.</p></div>
-  <div class="feature-card"><h4>🇫🇮 Finnish Tuned</h4><p>Optimized handling for HS, IL & IS sources.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"></path><path d="M18 14h-8"></path><path d="M15 18h-5"></path><path d="M10 6h8v4h-8V6Z"></path></svg> URL Summaries</h4><p>Paste a news article link—structured digest returned.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> Language Aware</h4><p>Detects & preserves original language automatically.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg> Signal Density</h4><p>Max 3 paragraphs + bullets; no filler.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> Fact Emphasis</h4><p>Names, dates, places & quantitative anchors surfaced.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Fast Cycle</h4><p>Summaries typically in under 10 seconds.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg> Finnish Tuned</h4><p>Optimized handling for HS, IL & IS sources.</p></div>
 </div>
 
 

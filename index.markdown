@@ -58,17 +58,17 @@ canonical_url: https://mxm-consulting.fi
     <h2 id="why-heading">Why Partner with MXM Consulting?</h2>
   <div class="mxm-grid cols-3 tight services-grid centered-rows mt-3">
       <div class="mxm-card reveal-up" data-delay="1">
-        <div class="icon" aria-hidden="true">⚙️</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.1a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
         <h3>Architecture & Cloud</h3>
         <p>Designing resilient, scalable distributed systems on AWS & Google Cloud, including high-throughput LLM pipelines and semantic search infrastructure.</p>
       </div>
       <div class="mxm-card reveal-up" data-delay="2">
-        <div class="icon" aria-hidden="true">🧭</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg></div>
         <h3>Technical Due Diligence</h3>
         <p>Clear, evidence-based assessments for investors & leadership: architecture velocity, AI/ML risk posture, intellectual property, and strategic scaling options.</p>
       </div>
       <div class="mxm-card reveal-up" data-delay="3">
-        <div class="icon" aria-hidden="true">🚀</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91-.79-.79-2.08-.8-2.91-.09z"></path><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg></div>
         <h3>Applied AI & Acceleration</h3>
         <p>Operationalizing LLMs, agentic workflows, and semantic caching, while aligning roadmaps and unblocking product delivery teams.</p>
       </div>
@@ -101,42 +101,42 @@ canonical_url: https://mxm-consulting.fi
           <!-- existing slides preserved -->
           <div class="slide-item" tabindex="0" role="group" aria-label="Cloud Services">
             <div class="slide-content">
-              <img src="assets/img/cloud.png" alt="Cloud Services" />
+              <img src="assets/img/cloud.webp" alt="Cloud Services" />
               <h3>Cloud Services</h3>
               <p>AWS & Google Cloud scale, IaC, Kubernetes, and serverless compute</p>
             </div>
           </div>
           <div class="slide-item" tabindex="0" role="group" aria-label="Software Architecture">
             <div class="slide-content">
-              <img src="assets/img/architecture.png" alt="Software Architecture" />
+              <img src="assets/img/architecture.webp" alt="Software Architecture" />
               <h3>Software Architecture</h3>
               <p>Event-driven microservices, clean API lifecycles, and scalable data models</p>
             </div>
           </div>
           <div class="slide-item" tabindex="0" role="group" aria-label="App Development">
             <div class="slide-content">
-              <img src="assets/img/app.png" alt="App Development" />
+              <img src="assets/img/app.webp" alt="App Development" />
               <h3>App Development</h3>
               <p>High-performance web applications, native mobile apps, and rich interactive frontends</p>
             </div>
           </div>
           <div class="slide-item" tabindex="0" role="group" aria-label="AI & Agentic Systems">
             <div class="slide-content">
-              <img src="assets/img/ai.png" alt="AI & Agentic Systems" />
+              <img src="assets/img/ai.webp" alt="AI & Agentic Systems" />
               <h3>AI & Agentic Systems</h3>
               <p>Designing custom RAG architectures, multi-agent workflows, and LLMOps evaluation loops</p>
             </div>
           </div>
           <div class="slide-item" tabindex="0" role="group" aria-label="Automation & Platform">
             <div class="slide-content">
-              <img src="assets/img/automation.png" alt="Automation & Platform" />
+              <img src="assets/img/automation.webp" alt="Automation & Platform" />
               <h3>Automation & Platform</h3>
               <p>CI/CD golden paths, developer experience, and automated policy-as-code</p>
             </div>
           </div>
           <div class="slide-item" tabindex="0" role="group" aria-label="Technology Leadership">
             <div class="slide-content">
-              <img src="assets/img/management.png" alt="Technology Leadership" />
+              <img src="assets/img/management.webp" alt="Technology Leadership" />
               <h3>Technology Leadership</h3>
               <p>Fractional CTO advisory, technical due diligence, and team capability uplift</p>
             </div>

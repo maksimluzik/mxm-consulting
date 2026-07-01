@@ -5,6 +5,8 @@
 .mxm-card h3 { margin-top:0; margin-bottom:.75rem; }
 .mxm-card p { margin:0; color: var(--mxm-color-text-soft); }
 .mxm-card .icon { width:40px; height:40px; display:grid; place-items:center; background:var(--mxm-color-gradient); color:#fff; border-radius:10px; margin-bottom:1rem; font-size:1.25rem; }
+.mxm-card .icon svg { width:20px; height:20px; }
+.icon-inline { width:1.2em; height:1.2em; stroke:currentColor; stroke-width:2.25; stroke-linecap:round; stroke-linejoin:round; fill:none; display:inline-block; vertical-align:middle; margin-top:-2px; flex-shrink:0; }
 .feature-grid { display:grid; gap:var(--mxm-grid-gap); grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); margin:2.5rem 0 1rem; }
 .feature-card { background: var(--mxm-color-surface); border:1px solid var(--mxm-color-border); padding:1.35rem 1.25rem 1.45rem; border-radius: var(--mxm-radius-md); box-shadow: var(--mxm-shadow-sm); position:relative; transition:border-color var(--mxm-timing) var(--mxm-ease), box-shadow var(--mxm-timing) var(--mxm-ease), transform var(--mxm-timing-fast) var(--mxm-ease); text-align:center; }
 .feature-card:hover { border-color:transparent; box-shadow: var(--mxm-shadow-lg); transform:translateY(-4px); }

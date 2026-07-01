@@ -52,12 +52,12 @@ The platform solves a common problem: when friends share subscription costs, it'
 ### Core Functionality
 
 <div class="feature-grid" style="margin-top:2.25rem;">
-  <div class="feature-card"><h4>🔐 Authentication</h4><p>Firebase Auth with Google OAuth 2.0 & Email/Password support.</p></div>
-  <div class="feature-card"><h4>👥 Group Dynamics</h4><p>Create groups, invite friends via unique code or link.</p></div>
-  <div class="feature-card"><h4>💳 Service Ownership</h4><p>Any member adds services they pay for; transparent ownership tracking.</p></div>
-  <div class="feature-card"><h4>📅 Billing Cycles</h4><p>Monthly, Quarterly, Biyearly, or Yearly—all normalized to monthly view.</p></div>
-  <div class="feature-card"><h4>🎯 Granular Participation</h4><p>Users explicitly "Join" specific services; no automatic enrollment.</p></div>
-  <div class="feature-card"><h4>💰 Cost Normalization</h4><p>All costs display as monthly equivalents for easy budgeting.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Authentication</h4><p>Firebase Auth with Google OAuth 2.0 & Email/Password support.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg> Group Dynamics</h4><p>Create groups, invite friends via unique code or link.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg> Service Ownership</h4><p>Any member adds services they pay for; transparent ownership tracking.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg> Billing Cycles</h4><p>Monthly, Quarterly, Biyearly, or Yearly—all normalized to monthly view.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg> Granular Participation</h4><p>Users explicitly "Join" specific services; no automatic enrollment.</p></div>
+  <div class="feature-card"><h4><svg class="icon-inline" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg> Cost Normalization</h4><p>All costs display as monthly equivalents for easy budgeting.</p></div>
 </div>
 
 ## Technical Architecture
