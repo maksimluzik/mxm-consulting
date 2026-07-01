@@ -56,4 +56,67 @@
     skip.addEventListener('blur', () => skip.style.transform = 'translateY(-120%)');
     document.body.prepend(skip);
   }
+
+  // Image Modal Viewer
+  const clickableImages = document.querySelectorAll('.services-grid .mxm-card img, .slide-content img');
+  if (clickableImages.length > 0) {
+    let modal = document.querySelector('.mxm-image-modal');
+    
+    const createModal = () => {
+      modal = document.createElement('div');
+      modal.className = 'mxm-image-modal';
+      modal.setAttribute('role', 'dialog');
+      modal.setAttribute('aria-modal', 'true');
+      modal.setAttribute('aria-label', 'Image Viewer');
+      modal.innerHTML = `
+        <div class="mxm-image-modal-content">
+          <button class="mxm-image-modal-close" aria-label="Close image viewer">&times;</button>
+          <img src="" alt="" />
+          <div class="mxm-image-modal-caption"></div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+
+      const closeModal = () => {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+        if (modal._triggerElement) {
+          modal._triggerElement.focus();
+        }
+      };
+
+      modal.querySelector('.mxm-image-modal-close').addEventListener('click', closeModal);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+          closeModal();
+        }
+      });
+    };
+
+    clickableImages.forEach(img => {
+      img.addEventListener('click', () => {
+        if (!modal) createModal();
+        
+        const modalImg = modal.querySelector('img');
+        const modalCaption = modal.querySelector('.mxm-image-modal-caption');
+        
+        // Find caption from closest card/slide heading
+        const card = img.closest('.mxm-card, .slide-content');
+        const heading = card ? card.querySelector('h3') : null;
+        const captionText = heading ? heading.textContent : img.alt;
+        
+        modalImg.src = img.src;
+        modalImg.alt = img.alt;
+        modalCaption.textContent = captionText;
+        modal._triggerElement = img; // save for restoring focus
+        
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden'; // prevent background scroll
+        modal.querySelector('.mxm-image-modal-close').focus();
+      });
+    });
+  }
 })();

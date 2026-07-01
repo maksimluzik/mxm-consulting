@@ -25,3 +25,14 @@ html:not(.no-js) .hero__bg { animation:heroSlowZoom 28s linear infinite alternat
 .hero h1 span.gradient { background: var(--mxm-color-gradient-vibrant); -webkit-background-clip:text; -webkit-text-fill-color:transparent; color:transparent; }
 .hero-lead { max-width:680px; font-size:clamp(1.05rem,1.6vw,1.35rem); color:#e2e8f0; margin-top:1.25rem; }
 .hero-cta { margin-top:2.25rem; display:flex; flex-wrap:wrap; gap:1rem; }
+
+/* Image Modal Overlay */
+.mxm-image-modal { position:fixed; inset:0; z-index:2000; background:rgba(10,12,16,0.85); backdrop-filter:blur(15px); display:flex; align-items:center; justify-content:center; opacity:0; pointer-events:none; transition:opacity .3s ease; padding:1.5rem; }
+.mxm-image-modal.active { opacity:1; pointer-events:auto; }
+.mxm-image-modal-content { position:relative; max-width:90%; max-height:85%; border-radius:12px; overflow:hidden; box-shadow:0 25px 50px -12px rgba(0,0,0,0.5); border:1px solid rgba(255,255,255,0.1); transform:scale(0.95); transition:transform .3s cubic-bezier(0.34,1.56,0.64,1); }
+.mxm-image-modal.active .mxm-image-modal-content { transform:scale(1); }
+.mxm-image-modal img { display:block; width:auto; height:auto; max-width:100%; max-height:80vh; object-fit:contain; }
+.mxm-image-modal-close { position:absolute; top:1rem; right:1rem; background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); border-radius:50%; width:2.5rem; height:2.5rem; font-size:1.25rem; line-height:1; cursor:pointer; display:grid; place-items:center; transition:background-color .2s,transform .2s; z-index:2001; }
+.mxm-image-modal-close:hover { background:rgba(255,255,255,0.2); transform:scale(1.05); }
+.mxm-image-modal-caption { padding:1rem; background:rgba(15,18,22,0.95); color:#fff; text-align:center; font-size:.95rem; font-weight:500; border-top:1px solid rgba(255,255,255,0.08); }
+

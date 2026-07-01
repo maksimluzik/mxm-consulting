@@ -24,7 +24,8 @@
 
 /* Service pillar icons adjustment */
 .services-grid .mxm-card { min-height:240px; }
-.services-grid .mxm-card img { width:clamp(140px,40vw,220px); max-width:100%; height:auto; margin-top:1rem; display:block; margin-inline:auto; }
+.services-grid .mxm-card img { width:clamp(140px,40vw,220px); max-width:100%; height:auto; margin-top:1rem; display:block; margin-inline:auto; cursor:pointer; transition:transform var(--mxm-timing-fast) var(--mxm-ease), filter var(--mxm-timing-fast) var(--mxm-ease); }
+.services-grid .mxm-card img:hover { transform:scale(1.04); filter:brightness(1.08); }
 @media (max-width:520px){ .services-grid .mxm-card img { width:150px; } }
 
 /* Tight centered grid variant */
