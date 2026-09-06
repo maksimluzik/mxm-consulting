@@ -36,3 +36,47 @@ html:not(.no-js) .hero__bg { animation:heroSlowZoom 28s linear infinite alternat
 .mxm-image-modal-close:hover { background:rgba(255,255,255,0.2); transform:scale(1.05); }
 .mxm-image-modal-caption { padding:1rem; background:rgba(15,18,22,0.95); color:#fff; text-align:center; font-size:.95rem; font-weight:500; border-top:1px solid rgba(255,255,255,0.08); }
 
+/* Prose Layout (privacy-policy, legal pages) */
+.prose-hero {
+  padding: clamp(3.5rem,9vh,5.5rem) 0 clamp(2rem,5vh,3.5rem);
+  background: linear-gradient(135deg,#0d0f17 0%,#121522 55%,#161a2a 100%);
+  border-bottom: 1px solid var(--mxm-color-border);
+}
+.prose-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem,3.8vw,3rem);
+  color: var(--mxm-color-primary);
+}
+.prose-body {
+  padding-block: clamp(2.5rem,6vh,4.5rem);
+  max-width: 860px;
+}
+.prose-body h2 {
+  font-size: clamp(1.25rem,2vw,1.6rem);
+  color: var(--mxm-color-text);
+  margin: 2.5rem 0 .75rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--mxm-color-border);
+}
+.prose-body h3 {
+  font-size: clamp(1rem,1.4vw,1.2rem);
+  color: var(--mxm-color-text);
+  margin: 1.75rem 0 .5rem;
+}
+.prose-body p,
+.prose-body li {
+  color: var(--mxm-color-text-soft);
+  line-height: 1.75;
+}
+.prose-body ul {
+  padding-left: 1.4rem;
+  margin: .75rem 0 1rem;
+}
+.prose-body li { margin-bottom: .35rem; }
+.prose-body a { color: var(--mxm-color-primary); text-decoration: underline; text-underline-offset: 3px; }
+.prose-body a:hover { color: var(--mxm-color-primary-accent); }
+.prose-body strong { color: var(--mxm-color-text); }
+.prose-body hr { border: none; border-top: 1px solid var(--mxm-color-border); margin: 2rem 0; }
+.prose-body em { color: var(--mxm-color-text-muted); font-style: italic; }
+
+

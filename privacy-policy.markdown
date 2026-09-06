@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: prose
 title: "Privacy Policy - MXM Consulting"
 description: "Privacy Policy for MXM Consulting - How we collect, use, and protect your personal information in accordance with GDPR and Finnish data protection laws."
 keywords: "privacy policy, data protection, GDPR, MXM Consulting, personal information, cookies, data security"
@@ -15,8 +15,6 @@ linkedin_title: "Privacy Policy - MXM Consulting"
 linkedin_description: "Privacy Policy for MXM Consulting - How we collect, use, and protect your personal information in accordance with GDPR and Finnish data protection laws."
 canonical_url: https://mxm-consulting.fi/privacy-policy/
 ---
-
-# Privacy Policy
 
 **Effective Date: July 29, 2025**
 
