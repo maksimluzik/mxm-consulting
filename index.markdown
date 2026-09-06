@@ -225,8 +225,8 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
       </div>
       <div class="metric-strip-card">
         <div class="metric-stat">15+ Yrs</div>
-        <div class="metric-label">Staff-Level Authority</div>
-        <p class="metric-desc">Distributed event streams, high-concurrency monolith-to-microservice decouplings, and cloud platforms.</p>
+        <div class="metric-label">Staff-Level Expert</div>
+        <p class="metric-desc">Distributed event streams, cloud platforms, microservice migrations, and production RAG & AI architectures.</p>
       </div>
       <div class="metric-strip-card">
         <div class="metric-stat">&euro;100M+</div>
