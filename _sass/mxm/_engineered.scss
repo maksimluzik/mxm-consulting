@@ -6,9 +6,9 @@
 /* Container and layout helpers */
 .engineered-container {
   width: 100%;
-  max-width: 1320px;
+  max-width: var(--mxm-max-width, 1200px);
   margin-inline: auto;
-  padding-inline: clamp(1rem, 2.5vw, 2.5rem);
+  padding-inline: var(--mxm-container-pad, clamp(1rem, 2.5vw, 2.5rem));
 }
 
 .section-eyebrow {
@@ -369,7 +369,7 @@
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 1200px;
+  max-width: var(--mxm-max-width, 1200px);
 }
 
 .hero-headline {

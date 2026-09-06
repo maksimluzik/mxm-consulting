@@ -20,7 +20,6 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
   <div class="hero-glow-orb" aria-hidden="true"></div>
   <div class="engineered-container hero-content">
     <div class="section-eyebrow">
-      <span class="dot"></span>
       <span>15+ YEARS STAFF-LEVEL ENGINEERING &amp; SYSTEM ARCHITECTURE</span>
     </div>
 
@@ -176,7 +175,6 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
   <div class="engineered-container">
     <div class="enterprise-eyebrow-row">
       <span class="section-eyebrow">
-        <span class="dot"></span>
         <span>VERIFIED ENTERPRISE TRACK RECORD</span>
       </span>
       <span style="font-family:var(--mxm-font-mono); font-size:0.75rem; color:var(--mxm-color-text-muted);">
@@ -244,7 +242,6 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
   <div class="engineered-container">
     <div class="section-header-block">
       <div class="section-eyebrow">
-        <span class="dot"></span>
         <span>CORE ARCHITECTURAL PRACTICES</span>
       </div>
       <h2 id="pillars-title" class="section-title">Engineered for Scale, Speed, and Boardroom Certainty.</h2>
@@ -401,7 +398,6 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
   <div class="engineered-container">
     <div class="section-header-block">
       <div class="section-eyebrow">
-        <span class="dot"></span>
         <span>MULTI-CLOUD &amp; DISTRIBUTED SYSTEMS SCHEMATIC</span>
       </div>
       <h2 id="blueprint-title" class="section-title">Enterprise Cloud Architecture &amp; Scale Topology (AWS &amp; GCP)</h2>
@@ -533,7 +529,6 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
   <div class="engineered-container">
     <div class="section-header-block">
       <div class="section-eyebrow">
-        <span class="dot"></span>
         <span>PROVEN TRACK RECORD // PRODUCTION OUTCOMES</span>
       </div>
       <h2 id="cases-title" class="section-title">Production Case Studies &amp; Systems Track Record</h2>
@@ -771,7 +766,6 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
   <div class="engineered-container">
     <div class="section-header-block">
       <div class="section-eyebrow">
-        <span class="dot"></span>
         <span>ENGINEERING FIRST PRINCIPLES</span>
       </div>
       <h2 id="manifesto-title" class="section-title">The MXM Technical Manifesto</h2>
@@ -825,7 +819,6 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
   <div class="engineered-container">
     <div class="section-header-block">
       <div class="section-eyebrow">
-        <span class="dot"></span>
         <span>EXECUTIVE &amp; TECHNICAL ENGAGEMENT</span>
       </div>
       <h2 id="conversion-title" class="section-title">Initiate an Architecture Review or Inquiry</h2>
