@@ -899,7 +899,7 @@ og_description: "Elite Nordic engineering consultancy specializing in distribute
         <form action="https://formspree.io/f/xyzgwzaq" method="POST" class="intake-form">
           <div class="form-group">
             <label for="fullName">Your Name &amp; Title</label>
-            <input type="text" id="fullName" name="name" placeholder="e.g. Jane Doe, CTO" required autocomplete="name" />
+            <input type="text" id="fullName" name="name" placeholder="Your Name, Title" required autocomplete="name" />
           </div>
 
           <div class="form-group">
