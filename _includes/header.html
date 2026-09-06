@@ -1,31 +1,50 @@
-<header class="site-header modern-nav" role="banner">
-    <div class="mxm-container nav-bar">
-        <div class="brand-wrap">
-            {% if site.logo %}
-                <a class="brand" href="/" aria-label="MXM Consulting Home">
-                    <picture>
-                        <!-- Mobile specific logo -->
-                        <source media="(max-width: 640px)" srcset="{{ '/assets/img/mxm-logo-black.jpg' | relative_url }}" />
-                        <!-- Default / desktop logo -->
-                        <img class="brand-logo" alt="MXM Consulting logo" src="{{ site.logo | escape | prepend: "/assets/img/" | relative_url }}" decoding="async" fetchpriority="high" />
-                    </picture>
-                </a>
-            {% endif %}
-        </div>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
-            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-        </button>
-        <nav id="primary-nav" class="nav-links" aria-label="Primary">
-            <a href="{{ "/" | relative_url }}" class="nav-item {% if page.url == '/' %}active{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-            <a href="{{ "/about/" | relative_url }}" class="nav-item {% if page.url contains '/about' %}active{% endif %}" {% if page.url contains '/about' %}aria-current="page"{% endif %}>About</a>
-            <a href="{{ "/services/" | relative_url }}" class="nav-item {% if page.url contains '/services' %}active{% endif %}" {% if page.url contains '/services' %}aria-current="page"{% endif %}>Services</a>
-            <a href="{{ "/portfolio/" | relative_url }}" class="nav-item {% if page.url contains '/portfolio' %}active{% endif %}" {% if page.url contains '/portfolio' %}aria-current="page"{% endif %}>Portfolio</a>
-            {% if page.url == '/' %}
-                <a href="#contact" class="nav-item contact-cta btn outline-light small">Contact</a>
-            {% else %}
-                <a href="{{ "/" | relative_url }}#contact" class="nav-item contact-cta btn outline-light small">Contact</a>
-            {% endif %}
-        </nav>
+<header class="site-header engineered-nav" role="banner">
+  <div class="mxm-container nav-container">
+    <div class="brand-cluster">
+      <a class="brand-link" href="{{ "/" | relative_url }}" aria-label="MXM Consulting Home">
+        <img class="brand-logo-img brand-logo-dark" src="{{ '/assets/img/mxm-consulting-logo-dark.svg' | relative_url }}" alt="MXM Consulting" width="266" height="25" decoding="async" />
+        <img class="brand-logo-img brand-logo-light" src="{{ '/assets/img/mxm-consulting-logo-light.svg' | relative_url }}" alt="MXM Consulting" width="266" height="25" decoding="async" />
+      </a>
     </div>
-    <script>document.addEventListener('DOMContentLoaded',function(){var t=document.querySelector('.nav-toggle');var n=document.getElementById('primary-nav');if(!t||!n)return;t.addEventListener('click',function(){var e=t.getAttribute('aria-expanded')==='true';t.setAttribute('aria-expanded',!e);n.classList.toggle('open',!e);document.documentElement.classList.toggle('nav-open',!e);});});</script>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav id="primary-nav" class="nav-links" aria-label="Primary">
+      <a href="{% if page.url == '/' %}#advisory{% else %}{{ '/' | relative_url }}#advisory{% endif %}" class="nav-item">Advisory</a>
+      <a href="{% if page.url == '/' %}#architecture{% else %}{{ '/' | relative_url }}#architecture{% endif %}" class="nav-item">Architecture</a>
+      <a href="{% if page.url == '/' %}#due-diligence{% else %}{{ '/' | relative_url }}#due-diligence{% endif %}" class="nav-item">Due Diligence</a>
+      <a href="{% if page.url == '/' %}#blueprint{% else %}{{ '/' | relative_url }}#blueprint{% endif %}" class="nav-item">Cloud &amp; Systems</a>
+      <a href="{% if page.url == '/' %}#case-studies{% else %}{{ '/' | relative_url }}#case-studies{% endif %}" class="nav-item">Case Studies</a>
+      <a href="{% if page.url == '/' %}#manifesto{% else %}{{ '/' | relative_url }}#manifesto{% endif %}" class="nav-item">Manifesto</a>
+      
+      <div class="nav-action-wrapper">
+        <a href="{% if page.url == '/' %}#conversion{% else %}{{ '/' | relative_url }}#conversion{% endif %}" class="btn-nav-primary">
+          <span>Request Review or Inquire</span>
+          <svg class="icon-nav-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <button class="theme-toggle-btn" id="themeToggle" type="button" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <svg class="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
 </header>

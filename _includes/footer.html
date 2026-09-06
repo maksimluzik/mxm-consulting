@@ -1,48 +1,58 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="site-footer engineered-footer" role="contentinfo">
+  <div class="mxm-container footer-container">
+    <div class="footer-top-grid">
+      <div class="footer-col-brand">
+        <div class="footer-brand">
+          <span class="footer-brand-title">MXM CONSULTING OY</span>
+          <span class="footer-badge-id">Y-TUNNUS: 3243925-3</span>
+        </div>
+        <p class="footer-tagline">
+          Staff-level engineering authority, distributed cloud scale, and technical due diligence for high-stakes technology platforms and institutional investors.
+        </p>
+      </div>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <h3>Contact Information</h3>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.company.name -%}
-              {{ site.company.name | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-          <li>
-            <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-          {%- endif -%}
-        </ul>
-        
-        <h3>Quick Links</h3>
-        <ul class="site-links">
-          <li><a href="{{ "/" | relative_url }}">Home</a></li>
-          <li><a href="{{ "/about/" | relative_url }}">About</a></li>
-          <li><a href="{{ "/services/" | relative_url }}">Services</a></li>
-          <li><a href="{{ "/portfolio/" | relative_url }}">Portfolio</a></li>
-          <li><a href="{{ "/#contact" | relative_url }}">Contact</a></li>
+      <div class="footer-col-links">
+        <h3 class="footer-col-header">Core Disciplines</h3>
+        <ul class="footer-nav-list">
+          <li><a href="{% if page.url == '/' %}#advisory{% else %}{{ '/' | relative_url }}#advisory{% endif %}">Applied AI &amp; Intelligent Systems</a></li>
+          <li><a href="{% if page.url == '/' %}#architecture{% else %}{{ '/' | relative_url }}#architecture{% endif %}">Distributed Systems &amp; Cloud</a></li>
+          <li><a href="{% if page.url == '/' %}#due-diligence{% else %}{{ '/' | relative_url }}#due-diligence{% endif %}">Technical Due Diligence &amp; M&amp;A</a></li>
+          <li><a href="{% if page.url == '/' %}#blueprint{% else %}{{ '/' | relative_url }}#blueprint{% endif %}">Production AI Blueprint</a></li>
+          <li><a href="{% if page.url == '/' %}#case-studies{% else %}{{ '/' | relative_url }}#case-studies{% endif %}">Evidence-Based Case Studies</a></li>
+          <li><a href="{% if page.url == '/' %}#manifesto{% else %}{{ '/' | relative_url }}#manifesto{% endif %}">Technical Manifesto</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <h3>Connect With Us</h3>
-        {%- include social.html -%}
+      <div class="footer-col-contact">
+        <h3 class="footer-col-header">Executive &amp; Advisory Channels</h3>
+        <div class="footer-contact-block">
+          <div class="contact-entry">
+            <span class="entry-label">DIRECT INQUIRIES:</span>
+            <a href="mailto:maksim@mxm-consulting.fi" class="entry-link">maksim@mxm-consulting.fi</a>
+          </div>
+          <div class="contact-entry">
+            <span class="entry-label">HEADQUARTERS:</span>
+            <span class="entry-value">Helsinki, Finland</span>
+          </div>
+          <div class="contact-entry">
+            <span class="entry-label">CONFIDENTIAL ADVISORY:</span>
+            <span class="entry-value">PGP-encrypted channels available for active M&amp;A due diligence upon request.</span>
+          </div>
+        </div>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <h3>About MXM Consulting</h3>
-        <p>{{- site.description | escape -}}</p>
-      </div>
-
     </div>
 
+    <div class="footer-bottom-bar">
+      <div class="footer-copyright">
+        &copy; {{ site.time | date: '%Y' }} MXM Consulting Oy. All rights reserved. Zero vendor kickbacks. Uncompromising engineering rigor.
+      </div>
+      <div class="footer-sub-links">
+        <a href="https://www.linkedin.com/company/mxm-consulting-fi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span class="sep">&bull;</span>
+        <a href="https://github.com/maksimluzik" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span class="sep">&bull;</span>
+        <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+      </div>
+    </div>
   </div>
-
 </footer>
