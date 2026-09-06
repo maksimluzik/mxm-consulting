@@ -334,7 +334,7 @@
 .hero-bg-media {
   position: absolute;
   inset: 0;
-  background-image: var(--mxm-hero-bg);
+  background-image: url('/assets/img/hero-bg-cloud-ai-dark.jpg');
   background-repeat: no-repeat;
   background-position: center 36%;
   background-size: cover;
@@ -1916,7 +1916,7 @@
   }
 
   .hero-bg-media {
-    background-image: var(--mxm-hero-bg) !important;
+    background-image: url('/assets/img/hero-bg-cloud-ai-light.jpg') !important;
     opacity: 0.36 !important;
   }
 
