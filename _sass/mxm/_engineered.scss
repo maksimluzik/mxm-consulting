@@ -1696,8 +1696,8 @@
 
 .footer-top-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1.2fr;
-  gap: clamp(2rem, 4vw, 3.5rem);
+  grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+  gap: clamp(1.75rem, 3vw, 3rem);
   margin-bottom: clamp(2.5rem, 4vw, 3.5rem);
 }
 
@@ -1864,7 +1864,7 @@
     grid-template-columns: 1fr;
   }
   .footer-top-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -2001,6 +2001,12 @@
   .nav-links {
     top: 72px;
     max-height: calc(100vh - 72px);
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-top-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -2493,6 +2499,7 @@
       }
     }
   }
+
 
   /* 6. Technical Philosophy (Manifesto) - Light boxes & dark text */
   .manifesto-section {

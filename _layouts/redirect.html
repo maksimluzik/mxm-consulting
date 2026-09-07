@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to MXM Consulting...</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.redirect_to }}">
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+  <meta name="robots" content="noindex,follow">
+</head>
+<body style="background:#080a10;color:#f8fafc;font-family:system-ui,-apple-system,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;padding:1.5rem;box-sizing:border-box;">
+  <div style="text-align:center;max-width:480px;">
+    <p style="font-size:1.1rem;margin-bottom:1rem;color:#94a3b8;">Redirecting to MXM Consulting…</p>
+    <a href="{{ page.redirect_to | relative_url }}" style="color:#00f0ff;text-decoration:none;font-weight:600;font-size:0.95rem;border:1px solid rgba(0,240,255,0.3);padding:0.6rem 1.2rem;border-radius:6px;display:inline-block;">Click here if you are not redirected automatically &rarr;</a>
+  </div>
+  <script>
+    window.location.replace("{{ page.redirect_to | relative_url }}");
+  </script>
+</body>
+</html>
